@@ -35,7 +35,7 @@ An unofficial fan patch for the **offline edition** of *DanMachi Battle Chronicl
 | | |
 |---|---|
 | ![Story](docs/images/story.png) **Story**: every scene in English, voices untouched | ![Battle](docs/images/battle.png) **Battle**: enemy names, objectives and HUD in English |
-| ![Results](docs/images/results.png) **Results**: rank, rewards and Battle Missions in English | ![Tutorial](docs/images/tutorial-before-after.png) **Tutorials**: the original image (left) and the patched one |
+| ![Gacha](docs/images/gacha.png) **Gacha**: results in English, and every ten-pull also earns 50 exchange tokens toward any character | ![Tutorial](docs/images/tutorial-before-after.png) **Tutorials**: the original image (left) and the patched one |
 
 ---
 
