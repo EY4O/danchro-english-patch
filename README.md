@@ -50,6 +50,8 @@ An unofficial fan patch for the **offline edition** of *DanMachi Battle Chronicl
 
 Your original files are backed up in the patch folder. `uninstall-windows.bat` / `uninstall-mac.command` restores them, and save data is never touched.
 
+**Updating from an older version:** unzip the new patch over your existing `DanChro-English-Patch` folder, so its `backup` folder is kept, and run the installer again. Or run the old uninstaller first. The installer refuses to back up files that an older patch already changed.
+
 ### Option 2: **Build it from your own game files**
 
 ```bash

@@ -23,20 +23,36 @@ echo   1 = Full patch: English + fairer gacha, more crystals, less grind, smarte
 echo   2 = Translation only: English text and images, gameplay unchanged
 choice /c 12 /n /m "Press 1 or 2: "
 if errorlevel 2 (set "LIST=files-translation.txt") else (set "LIST=files-full.txt")
-if not exist backup (
-  mkdir backup
-  for /f "usebackq tokens=1,2 delims=|" %%A in ("files-all.txt") do (
+rem back up any original not yet in backup\ (an older patch's backup may hold fewer files)
+if not exist backup mkdir backup
+for /f "usebackq tokens=1,2 delims=|" %%A in ("files-all.txt") do (
+  if not exist "backup\%%A" (
+    set "REL=%%B" & set "REL=!REL:/=\!"
+    set "WANT="
+    for /f "tokens=2 delims=|" %%S in ('findstr /b /c:"%%A|" original-sizes.txt') do set "WANT=%%S"
+    for %%F in ("%GAME%\!REL!") do set "SIZE=%%~zF"
+    if defined WANT if not "!SIZE!"=="!WANT!" (
+      echo !REL! is not the original game file - an earlier version of the patch seems to be installed.
+      echo Run that version's uninstaller first, or unzip this patch over the old DanChro-English-Patch folder
+      echo so its backup folder is kept. Nothing was changed.
+      pause & exit /b 1
+    )
+  )
+)
+set "NEW=0"
+for /f "usebackq tokens=1,2 delims=|" %%A in ("files-all.txt") do (
+  if not exist "backup\%%A" (
     set "REL=%%B" & set "REL=!REL:/=\!"
     for %%F in ("%GAME%\!REL!") do set "DIR=%%~dpF"
     call :put "!DIR:~0,-1!" "%HERE%\backup" "%%A"
+    set /a NEW+=1
   )
-  if defined FAILED (
-    rmdir /s /q backup
-    echo Backup failed, nothing was changed. Try moving the game to a shorter folder path.
-    pause & exit /b 1
-  )
-  echo Backed up original files to %HERE%\backup
 )
+if defined FAILED (
+  echo Backup failed. Try moving the game to a shorter folder path, then run this again.
+  pause & exit /b 1
+)
+if not "!NEW!"=="0" echo Backed up !NEW! original files to %HERE%\backup
 rem start from the originals so switching versions leaves nothing behind
 for /f "usebackq tokens=1,2 delims=|" %%A in ("files-all.txt") do (
   set "REL=%%B" & set "REL=!REL:/=\!"

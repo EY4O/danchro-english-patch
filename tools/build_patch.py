@@ -234,6 +234,9 @@ def package():
                 union[n] = rel
             z.writestr(f"{name}/files-{v}.txt", "\n".join(lines) + "\n")
         z.writestr(f"{name}/files-all.txt", "\n".join(f"{n}|{r}" for n, r in sorted(union.items())) + "\n")
+        # sizes of the untouched files: the installers refuse to back up a file that an earlier patch already changed
+        z.writestr(f"{name}/original-sizes.txt",
+                   "\n".join(f"{n}|{os.path.getsize(f'{ORIG}/{n}')}" for n in sorted(union)) + "\n")
         for f in sorted(os.listdir(f"{PATCH}/installer")):
             info = zipfile.ZipInfo.from_file(f"{PATCH}/installer/{f}", f"{name}/{f}")
             if f.endswith(".command"):
