@@ -1,0 +1,416 @@
+{
+ "T0101201": [
+  {
+   "ja": "エクセリア",
+   "en": "Excelia",
+   "style": "ui",
+   "size": 36,
+   "box": {
+    "x": 36,
+    "y": 316,
+    "w": 194,
+    "h": 48
+   },
+   "dx": 34,
+   "erase": "box"
+  },
+  {
+   "ja": "恩恵",
+   "en": "Falna",
+   "style": "ui",
+   "size": 36,
+   "box": {
+    "x": 352,
+    "y": 316,
+    "w": 94,
+    "h": 48
+   },
+   "dx": -1,
+   "erase": "box"
+  },
+  {
+   "ja": "証",
+   "en": "Proof",
+   "style": "ui",
+   "size": 36,
+   "box": {
+    "x": 634,
+    "y": 316,
+    "w": 50,
+    "h": 48
+   },
+   "dx": -23,
+   "erase": "box"
+  },
+  {
+   "ja": "ヴァリス",
+   "en": "Valis",
+   "style": "ui",
+   "size": 36,
+   "box": {
+    "x": 830,
+    "y": 316,
+    "w": 152,
+    "h": 50
+   },
+   "dx": 32,
+   "erase": "box"
+  },
+  {
+   "ja": "毎日挑戦して強化素材をたくさん手に入れよう！",
+   "en": "*Challenge daily* for lots of *upgrade materials*!",
+   "style": "headline",
+   "box": {
+    "x": 172.0,
+    "y": 396.5,
+    "w": 688.0,
+    "h": 45
+   },
+   "dx": -51
+  }
+ ],
+ "T0101703": [
+  {
+   "ja": "バトル終了時に持っていた魔石が",
+   "en": "*Magic stones* held at battle's end",
+   "style": "headline",
+   "box": {
+    "x": 73.8,
+    "y": 82.4,
+    "w": 400.3,
+    "h": 35
+   },
+   "dx": -25
+  },
+  {
+   "ja": "「争奪戦ヨイン」に変換される",
+   "en": "turn into *\"Scramble Coins\"*",
+   "style": "headline",
+   "box": {
+    "x": 100.0,
+    "y": 116.5,
+    "w": 334.0,
+    "h": 35
+   },
+   "dx": -9
+  },
+  {
+   "ja": "「争奪戦コイン」を集めて交換所で",
+   "en": "Trade *\"Scramble Coins\"* at the",
+   "style": "headline",
+   "box": {
+    "x": 561.8,
+    "y": 83.5,
+    "w": 382.3,
+    "h": 35
+   },
+   "dx": -19
+  },
+  {
+   "ja": "豪華報酬と交換しよう！",
+   "en": "Exchange for *lavish rewards*!",
+   "style": "headline",
+   "box": {
+    "x": 562,
+    "y": 118.5,
+    "w": 382,
+    "h": 35
+   },
+   "dx": -9
+  }
+ ],
+ "T0101801": [
+  {
+   "ja": "ランク強化でシーンカードの",
+   "en": "*Rank Enhancement* raises",
+   "style": "headline",
+   "box": {
+    "x": 472.0,
+    "y": 8.5,
+    "w": 424.0,
+    "h": 45
+   },
+   "dx": 6
+  },
+  {
+   "ja": "ステイタスをUPさせよう！",
+   "en": "your Scene Card's *Status*!",
+   "style": "headline",
+   "box": {
+    "x": 573.6,
+    "y": 54.3,
+    "w": 424.9,
+    "h": 45
+   },
+   "dx": -35
+  },
+  {
+   "ja": "体力",
+   "en": "HP",
+   "style": "ui",
+   "size": 14,
+   "box": {
+    "x": 54,
+    "y": 108,
+    "w": 37,
+    "h": 18
+   },
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "カ",
+   "en": "Strength",
+   "style": "ui",
+   "size": 14,
+   "dx": -8,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "魔力",
+   "en": "Magic",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "耐久",
+   "en": "Endurance",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "器用",
+   "en": "Dexterity",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "自動選択",
+   "en": "Auto Select",
+   "style": "ui",
+   "size": 16,
+   "dx": -11
+  },
+  {
+   "ja": "リセット",
+   "en": "Reset",
+   "style": "ui",
+   "size": 16,
+   "dx": 7
+  },
+  {
+   "ja": "ランク上昇",
+   "en": "Rank Up",
+   "style": "ui",
+   "size": 54,
+   "dx": 20,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "erase": "box"
+  }
+ ],
+ "T0103103": [
+  {
+   "ja": "最大3ユニットが同時出撃し、オートでバトル！",
+   "en": "*Deploy up to 3 Units* and *battle on Auto*!",
+   "style": "headline",
+   "box": {
+    "x": 136.0,
+    "y": 378.5,
+    "w": 760.0,
+    "h": 55
+   },
+   "dx": -45
+  }
+ ],
+ "T0103601": [
+  {
+   "ja": "専用素材を使用して",
+   "en": "Use *special materials*",
+   "style": "headline",
+   "box": {
+    "x": 36.0,
+    "y": 7.5,
+    "w": 302.0,
+    "h": 45
+   },
+   "dx": 2
+  },
+  {
+   "ja": "能力を成長させよう！",
+   "en": "to grow your *abilities*!",
+   "style": "headline",
+   "box": {
+    "x": 241.7,
+    "y": 53.0,
+    "w": 288.7,
+    "h": 45
+   },
+   "dx": -96
+  },
+  {
+   "ja": "力",
+   "en": "Strength",
+   "style": "ui",
+   "size": 15,
+   "box": {
+    "x": 602,
+    "y": 25,
+    "w": 18,
+    "h": 18
+   },
+   "dx": -8,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "魔力",
+   "en": "Magic",
+   "style": "ui",
+   "size": 15,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "耐久",
+   "en": "Endurance",
+   "style": "ui",
+   "size": 15,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "器用",
+   "en": "Dexterity",
+   "style": "ui",
+   "size": 15,
+   "color": [
+    225,
+    225,
+    225
+   ]
+  },
+  {
+   "ja": "決定",
+   "en": "Confirm",
+   "style": "ui",
+   "size": 20,
+   "dx": -16,
+   "color": [
+    255,
+    255,
+    255
+   ]
+  }
+ ],
+ "T0201001": [
+  {
+   "ja": "アンストキャラ",
+   "en": "*Assist Characters*",
+   "style": "headline",
+   "box": {
+    "x": 34.0,
+    "y": 21.5,
+    "w": 306.0,
+    "h": 55
+   },
+   "dx": 2
+  },
+  {
+   "ja": "の力を借りて",
+   "en": "lend you their power",
+   "style": "headline",
+   "box": {
+    "x": 215.8,
+    "y": 72.0,
+    "w": 182.4,
+    "h": 40
+   },
+   "dx": -134
+  },
+  {
+   "ja": "共に困難を乗り越えよう！",
+   "en": "*Overcome trials* together!",
+   "style": "headline",
+   "box": {
+    "x": 537.9,
+    "y": 360.0,
+    "w": 414.2,
+    "h": 50
+   },
+   "dx": -51
+  }
+ ],
+ "T0201101": [
+  {
+   "ja": "ダッシュボタンをタップしてダッシコを発動！",
+   "en": "Tap the *Dash button* to perform a *Dash*!",
+   "style": "headline",
+   "box": {
+    "x": 26.0,
+    "y": 20.0,
+    "w": 728.0,
+    "h": 50
+   },
+   "dx": 2
+  },
+  {
+   "ja": "敵の動きをよく見て攻撃を",
+   "en": "Watch *enemy moves* closely",
+   "style": "headline",
+   "box": {
+    "x": 78.0,
+    "y": 331.5,
+    "w": 386.0,
+    "h": 43
+   },
+   "dx": -38
+  },
+  {
+   "ja": "上手く避けよう！",
+   "en": "and *dodge their attacks*!",
+   "style": "headline",
+   "box": {
+    "x": 228.0,
+    "y": 372.0,
+    "w": 304.0,
+    "h": 50
+   },
+   "dx": -148
+  }
+ ]
+}

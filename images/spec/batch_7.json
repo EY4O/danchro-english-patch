@@ -1,0 +1,749 @@
+{
+ "T0100802": [
+  {
+   "ja": "覚醒に必要な「絆」はガチャで",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "同じキャラを手に入れると獲得できる！ [erase]",
+   "en": "",
+   "style": "headline",
+   "erase": "box",
+   "box": {
+    "x": 146,
+    "y": 385,
+    "w": 604,
+    "h": 55
+   }
+  },
+  {
+   "ja": "L1 [draw]",
+   "en": "Pull *duplicate characters* from the *Gacha*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 26,
+    "y": 341.0,
+    "w": 718.9,
+    "h": 44
+   }
+  },
+  {
+   "ja": "L2 [draw]",
+   "en": "to *earn* the *Bonds* needed for Awakening!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 80,
+    "y": 390.0,
+    "w": 726.0,
+    "h": 44
+   }
+  },
+  {
+   "ja": "冒険者 (top card) [erase]",
+   "en": "",
+   "style": "ui",
+   "erase": "box",
+   "box": {
+    "x": 876,
+    "y": 229,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "ja": "冒険者 (top card) draw",
+   "en": "Adventurer",
+   "style": "ui",
+   "size": 11,
+   "color": [
+    251,
+    251,
+    250
+   ],
+   "erase": "none",
+   "box": {
+    "x": 865.5,
+    "y": 228,
+    "w": 63.0,
+    "h": 17
+   }
+  },
+  {
+   "ja": "アシスト",
+   "en": "Assist",
+   "style": "ui",
+   "size": 12,
+   "color": [
+    251,
+    251,
+    250
+   ],
+   "dx": 7
+  },
+  {
+   "ja": "SR",
+   "en": "SR",
+   "style": "keep"
+  },
+  {
+   "ja": "SS",
+   "en": "SS",
+   "style": "keep"
+  },
+  {
+   "ja": "UR",
+   "en": "UR",
+   "style": "keep"
+  },
+  {
+   "ja": "NEW",
+   "en": "NEW",
+   "style": "keep"
+  }
+ ],
+ "T0100901": [
+  {
+   "ja": "練度強化で威力が上昇！！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "headline [draw]",
+   "en": "*Skill Training* boosts *power*!!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 458.0,
+    "y": 15.0,
+    "w": 504.0,
+    "h": 44
+   }
+  },
+  {
+   "ja": "練度1 icon1",
+   "en": "Lv. 1",
+   "style": "ui",
+   "size": 11,
+   "color": [
+    233,
+    233,
+    235
+   ],
+   "erase": "box",
+   "box": {
+    "x": 61,
+    "y": 19,
+    "w": 28,
+    "h": 13
+   }
+  },
+  {
+   "ja": "練度1 icon2",
+   "en": "Lv. 1",
+   "style": "ui",
+   "size": 11,
+   "color": [
+    233,
+    233,
+    235
+   ],
+   "erase": "glyphs",
+   "box": {
+    "x": 164,
+    "y": 19,
+    "w": 31,
+    "h": 13
+   }
+  },
+  {
+   "ja": "練度1 icon3",
+   "en": "Lv. 1",
+   "style": "ui",
+   "size": 11,
+   "color": [
+    170,
+    169,
+    170
+   ],
+   "erase": "glyphs",
+   "box": {
+    "x": 265,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   }
+  },
+  {
+   "ja": "練度1 icon4",
+   "en": "Lv. 1",
+   "style": "ui",
+   "size": 11,
+   "color": [
+    233,
+    233,
+    235
+   ],
+   "erase": "glyphs",
+   "box": {
+    "x": 367,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   }
+  },
+  {
+   "ja": "通常攻撃",
+   "en": "Basic Attack",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    239,
+    236,
+    232
+   ]
+  },
+  {
+   "ja": "練度1 header [erase]",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 304,
+    "y": 107,
+    "w": 40,
+    "h": 19
+   }
+  },
+  {
+   "ja": "Lv1 header draw",
+   "en": "Lv. 1",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    239,
+    236,
+    232
+   ],
+   "erase": "none",
+   "box": {
+    "x": 313.0,
+    "y": 107,
+    "w": 30.0,
+    "h": 19
+   }
+  },
+  {
+   "ja": "練度2 header",
+   "en": "Lv. 2",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    16,
+    216,
+    242
+   ],
+   "erase": "glyphs",
+   "box": {
+    "x": 393,
+    "y": 107,
+    "w": 44,
+    "h": 19
+   }
+  },
+  {
+   "ja": "攻撃力倍率50%、前方範囲の4回攻撃。",
+   "en": "ATK multiplier 50%, 4 hits to a frontal area.",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "攻撃力倍率51.7%、前方範囲の4回攻撃。",
+   "en": "",
+   "style": "ui"
+  },
+  {
+   "ja": "desc2 ATK multiplier ",
+   "en": "ATK multiplier ",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    70,
+    64,
+    60
+   ],
+   "erase": "none",
+   "box": {
+    "x": 52,
+    "y": 182,
+    "w": 96.0,
+    "h": 20
+   }
+  },
+  {
+   "ja": "desc2 51.7%",
+   "en": "51.7%",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    28,
+    163,
+    206
+   ],
+   "erase": "none",
+   "box": {
+    "x": 148.0,
+    "y": 182,
+    "w": 39.0,
+    "h": 20
+   }
+  },
+  {
+   "ja": "desc2 , 4 hits to a frontal area.",
+   "en": ", 4 hits to a frontal area.",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    70,
+    64,
+    60
+   ],
+   "erase": "none",
+   "box": {
+    "x": 187.0,
+    "y": 182,
+    "w": 152.0,
+    "h": 20
+   }
+  },
+  {
+   "ja": "0/3",
+   "en": "0/3",
+   "style": "keep"
+  },
+  {
+   "ja": "300,000 ▶ 299,000",
+   "en": "300,000 ▶ 299,000",
+   "style": "keep"
+  }
+ ],
+ "T0103201": [
+  {
+   "ja": "logo [erase]",
+   "en": "",
+   "style": "headline",
+   "erase": "box",
+   "box": {
+    "x": 336,
+    "y": 42,
+    "w": 166,
+    "h": 82
+   }
+  },
+  {
+   "ja": "logo glow [erase]",
+   "en": "",
+   "style": "headline",
+   "erase": "box",
+   "box": {
+    "x": 316,
+    "y": 72,
+    "w": 22,
+    "h": 48
+   }
+  },
+  {
+   "ja": "logo1 [draw]",
+   "en": "*Beginner*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 346,
+    "y": 45.5,
+    "w": 89.0,
+    "h": 25
+   }
+  },
+  {
+   "ja": "logo2 [draw]",
+   "en": "Welcome",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 318,
+    "y": 65.0,
+    "w": 152.0,
+    "h": 42
+   }
+  },
+  {
+   "ja": "logo3 [draw]",
+   "en": "*Missions*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 420,
+    "y": 100.5,
+    "w": 84.0,
+    "h": 25
+   }
+  },
+  {
+   "ja": "初心者ウェルカムミッションをクリアして",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "豪華報酬をGETしょう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "L1 [draw]",
+   "en": "Clear the *Beginner Welcome Missions*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 20,
+    "y": 325.0,
+    "w": 623.0,
+    "h": 42
+   }
+  },
+  {
+   "ja": "L2 [draw]",
+   "en": "to *GET lavish rewards*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 20,
+    "y": 376.0,
+    "w": 485.9,
+    "h": 54
+   }
+  },
+  {
+   "ja": "1枚目",
+   "en": "Sheet 1",
+   "style": "ui",
+   "size": 15,
+   "color": [
+    249,
+    249,
+    249
+   ],
+   "dx": -5,
+   "erase": "box"
+  },
+  {
+   "ja": "2枚目",
+   "en": "Sheet 2",
+   "style": "ui",
+   "size": 15,
+   "dx": -4
+  },
+  {
+   "ja": "3枚目",
+   "en": "Sheet 3",
+   "style": "ui",
+   "size": 15,
+   "dx": -4
+  },
+  {
+   "ja": "4枚目",
+   "en": "Sheet 4",
+   "style": "ui",
+   "size": 15,
+   "dx": -4
+  },
+  {
+   "ja": "ホームシチュエーションを変更する",
+   "en": "Change the Home Scene",
+   "style": "ui",
+   "size": 10
+  },
+  {
+   "ja": "冒険者3人の熟練度を",
+   "en": "Raise 3 adventurers",
+   "style": "ui",
+   "size": 10
+  },
+  {
+   "ja": "アシスト3人の頭練",
+   "en": "Raise 3 Assists to",
+   "style": "ui",
+   "size": 10
+  },
+  {
+   "ja": "assist tail [erase]",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 924,
+    "y": 278,
+    "w": 24,
+    "h": 15
+   }
+  },
+  {
+   "ja": "×1000",
+   "en": "×1000",
+   "style": "keep"
+  },
+  {
+   "ja": "6",
+   "en": "6",
+   "style": "keep"
+  },
+  {
+   "ja": "5/10",
+   "en": "5/10",
+   "style": "keep"
+  },
+  {
+   "ja": "100",
+   "en": "100",
+   "style": "keep"
+  },
+  {
+   "ja": "ミッション",
+   "en": "ミッション",
+   "style": "keep"
+  }
+ ],
+ "T0103301": [
+  {
+   "ja": "アビリティを解放し",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "ロールの強みを伸ばそう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "L1 [draw]",
+   "en": "*Unlock Abilities* to hone",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 541.0,
+    "y": 8.0,
+    "w": 390.0,
+    "h": 42
+   }
+  },
+  {
+   "ja": "L2 [draw]",
+   "en": "*your Role's strengths*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 524.0,
+    "y": 53.5,
+    "w": 428.0,
+    "h": 49
+   }
+  },
+  {
+   "ja": "アビリティ解放",
+   "en": "Unlock Ability",
+   "style": "ui",
+   "size": 52,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "dx": 2,
+   "erase": "box"
+  },
+  {
+   "ja": "IV",
+   "en": "IV",
+   "style": "keep"
+  }
+ ],
+ "T0200202": [
+  {
+   "ja": "《ディフェンス》は高い耐久力をもつロール",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "相手の攻撃を耐えて反撃のチャンスを狙え！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "L1 [draw]",
+   "en": "The *Defense* role has *high durability*.",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 169.5,
+    "y": 350.5,
+    "w": 680.9,
+    "h": 47
+   }
+  },
+  {
+   "ja": "L2 [draw]",
+   "en": "*Endure attacks*, then *counter* when you can!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 145.5,
+    "y": 395.0,
+    "w": 732.9,
+    "h": 42
+   }
+  }
+ ],
+ "T0200401": [
+  {
+   "ja": "banner text [erase]",
+   "en": "",
+   "style": "ui",
+   "erase": "box",
+   "box": {
+    "x": 344,
+    "y": 134,
+    "w": 338,
+    "h": 24
+   }
+  },
+  {
+   "ja": "white blob [erase]",
+   "en": "",
+   "style": "ui",
+   "erase": "box",
+   "box": {
+    "x": 494,
+    "y": 126,
+    "w": 40,
+    "h": 42
+   }
+  },
+  {
+   "ja": "・制限時間内にすべての敵を倒せ。",
+   "en": "Defeat all enemies within the time limit",
+   "style": "ui",
+   "size": 17,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "erase": "none",
+   "box": {
+    "x": 355.0,
+    "y": 130,
+    "w": 316.0,
+    "h": 38
+   }
+  },
+  {
+   "ja": "制限時間内に目標を達成しよう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "L1 [draw]",
+   "en": "*Achieve your goal* within the *time limit*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 172.0,
+    "y": 394.0,
+    "w": 676.0,
+    "h": 44
+   }
+  },
+  {
+   "ja": "◎ 1:58",
+   "en": "◎ 1:58",
+   "style": "keep"
+  }
+ ],
+ "T0200901": [
+  {
+   "ja": "何度でも",
+   "en": "Unlimited",
+   "style": "ui",
+   "size": 18,
+   "dx": 6
+  },
+  {
+   "ja": "引き直し",
+   "en": "Redraws",
+   "style": "ui",
+   "size": 22,
+   "color": [
+    250,
+    90,
+    20
+   ],
+   "dx": 1
+  },
+  {
+   "ja": "できる！",
+   "en": "available!",
+   "style": "ui",
+   "size": 18,
+   "dx": -12
+  },
+  {
+   "ja": "ベルとクラネル [erase]",
+   "en": "",
+   "style": "headline",
+   "erase": "box",
+   "box": {
+    "x": 88,
+    "y": 382,
+    "w": 124,
+    "h": 14
+   }
+  },
+  {
+   "ja": "旨険者をクリアしてチュートリアルガチャを回そう！ [erase]",
+   "en": "",
+   "style": "headline",
+   "erase": "box",
+   "box": {
+    "x": 94,
+    "y": 400,
+    "w": 842,
+    "h": 42
+   }
+  },
+  {
+   "ja": "L1 [draw]",
+   "en": "Clear *Adventurer* to pull the *Tutorial Gacha*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 92,
+    "y": 395.5,
+    "w": 851.9,
+    "h": 49
+   }
+  },
+  {
+   "ja": "ruby [draw]",
+   "en": "*Bell Cranel*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 276.5,
+    "y": 376.0,
+    "w": 87.0,
+    "h": 20
+   }
+  }
+ ]
+}

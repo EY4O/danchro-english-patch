@@ -1,0 +1,21 @@
+# Game data and anything derived from it stays out of the repo.
+# Build it locally from your own copy of the game (see README).
+original/
+out/
+dist/
+source/
+work/
+images/ja/
+images/en/
+batches/*
+!batches/manifest.json
+translations/terms_index.tsv
+pilot/*
+!pilot/*_en.json
+
+# Local tooling
+.venv/
+tools/ocr/ocr
+__pycache__/
+*.pyc
+.DS_Store

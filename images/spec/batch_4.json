@@ -1,0 +1,456 @@
+{
+ "T0100701": [
+  {
+   "ja": "限界突破で熟練度の上限UP！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "限界突破で熟練度の上限UP！ [draw]",
+   "en": "*Limit Break* to raise the *Mastery cap*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 461,
+    "y": 12.4,
+    "w": 539,
+    "h": 37.2
+   }
+  },
+  {
+   "ja": "▶▶▶",
+   "en": "▶▶▶",
+   "style": "keep"
+  },
+  {
+   "ja": "熟練度上限 10",
+   "en": "Mastery Cap 10",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 17,
+   "dx": -4
+  },
+  {
+   "ja": "▶▶▶ 20",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "練度上限",
+   "en": "Training Cap",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 17,
+   "dx": -33
+  },
+  {
+   "ja": "5",
+   "en": "5",
+   "style": "keep"
+  },
+  {
+   "ja": "▶▶6",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "技「ラビットスピン」が解放されます",
+   "en": "Unlocks the skill “Rabbit Spin”",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 17,
+   "dx": 19
+  },
+  {
+   "ja": "10000/5",
+   "en": "10000/5",
+   "style": "keep"
+  },
+  {
+   "ja": "限界突破",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "限界突破 [draw]",
+   "en": "Limit Break",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 524,
+    "y": 321.2,
+    "w": 280,
+    "h": 61.59
+   }
+  },
+  {
+   "ja": "299,920 ▶ 298,920",
+   "en": "",
+   "style": "keep"
+  }
+ ],
+ "T0100801": [
+  {
+   "ja": "覚醒で更なる高みを目指せ！！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "覚醒で更なる高みを目指せ！！ [draw]",
+   "en": "*Awaken* to *reach new heights*!!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 485,
+    "y": 17.0,
+    "w": 510,
+    "h": 42.07
+   }
+  },
+  {
+   "ja": "基礎ステイタスアップ",
+   "en": "Base Stats Up",
+   "style": "ui",
+   "size": 14
+  },
+  {
+   "ja": "戦闘力",
+   "en": "Power",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "カ",
+   "en": "Strength",
+   "style": "ui",
+   "size": 13,
+   "dx": -14
+  },
+  {
+   "ja": "耐久",
+   "en": "Endurance",
+   "style": "ui",
+   "size": 13,
+   "dx": -6
+  },
+  {
+   "ja": "突撃槍+",
+   "en": "Lance Charge+",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "体力",
+   "en": "HP",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "魔力",
+   "en": "Magic",
+   "style": "ui",
+   "size": 13,
+   "dx": 2
+  },
+  {
+   "ja": "番用",
+   "en": "Dexterity",
+   "style": "ui",
+   "size": 13,
+   "dx": 2
+  },
+  {
+   "ja": "絆",
+   "en": "Bond",
+   "style": "ui",
+   "size": 18,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "dx": -10
+  },
+  {
+   "ja": "アイテム",
+   "en": "Items",
+   "style": "ui",
+   "size": 18,
+   "dx": 12
+  },
+  {
+   "ja": "0/10",
+   "en": "0/10",
+   "style": "keep"
+  },
+  {
+   "ja": "覚醒",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "覚醒 [draw]",
+   "en": "Awakening",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 530,
+    "y": 321.2,
+    "w": 271,
+    "h": 61.59
+   }
+  }
+ ],
+ "T0100902": [
+  {
+   "ja": "ディリークエスト",
+   "en": "Daily Quests",
+   "style": "ui",
+   "size": 28,
+   "dx": 22
+  },
+  {
+   "ja": "練度強化に必要な「証」は",
+   "en": "The *Proofs* needed for Training",
+   "style": "headline"
+  },
+  {
+   "ja": "「デイリークエスト」で獲得できる！",
+   "en": "can be earned in *Daily Quests*!",
+   "style": "headline"
+  }
+ ],
+ "T0102301": [
+  {
+   "ja": "ルーキ",
+   "en": "Rookie",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 11,
+   "erase": "box",
+   "box": {
+    "x": 233,
+    "y": 20,
+    "w": 48,
+    "h": 11
+   }
+  },
+  {
+   "ja": "ルーキー (right)",
+   "en": "Rookie",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 11,
+   "erase": "box",
+   "box": {
+    "x": 743,
+    "y": 20,
+    "w": 48,
+    "h": 11
+   }
+  },
+  {
+   "ja": "© 2:58",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "他プレイヤーのパーティと対戦！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "他プレイヤーのパーティと対戦！ [draw]",
+   "en": "*Battle other players' parties!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 32,
+    "y": 42.6,
+    "w": 633,
+    "h": 56.71
+   }
+  },
+  {
+   "ja": "勝利を重ねてランキング上位を目指そう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "勝利を重ねてランキング上位を目指そう！ [draw]",
+   "en": "Win battles to *climb the rankings*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 218,
+    "y": 383.4,
+    "w": 777,
+    "h": 59.15
+   }
+  }
+ ],
+ "T0103101": [
+  {
+   "ja": "未踏戦域",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "logo swoosh",
+   "en": "",
+   "style": "headline",
+   "box": {
+    "x": 118,
+    "y": 98,
+    "w": 330,
+    "h": 130
+   }
+  },
+  {
+   "ja": "未踏戦域 L1 [draw]",
+   "en": "Uncharted",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 152,
+    "y": 104.2,
+    "w": 259,
+    "h": 61.59
+   }
+  },
+  {
+   "ja": "未踏戦域 L2 [draw]",
+   "en": "Battlefield",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 156,
+    "y": 161.2,
+    "w": 252,
+    "h": 61.59
+   }
+  },
+  {
+   "ja": "未知の領域を踏破して",
+   "en": "*Conquer uncharted territory*",
+   "style": "headline"
+  },
+  {
+   "ja": "豪華報酬をゲットしよう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "豪華報酬をゲットしよう！ [draw]",
+   "en": "and claim *lavish rewards*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 114,
+    "y": 352.6,
+    "w": 568,
+    "h": 56.71
+   }
+  }
+ ],
+ "T0103102": [
+  {
+   "ja": "属性倍率が上昇！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "属性倍率が上昇！ [draw]",
+   "en": "*Element multipliers go up!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 222,
+    "y": 39.6,
+    "w": 581,
+    "h": 56.71
+   }
+  },
+  {
+   "ja": "有利な属性を編成しクリアを目指そう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "有利な属性を編成しクリアを目指そう！ [draw]",
+   "en": "*Field favorable Elements* to clear stages!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 84,
+    "y": 97.5,
+    "w": 856,
+    "h": 53.05
+   }
+  },
+  {
+   "ja": "Resist",
+   "en": "Resist",
+   "style": "keep"
+  },
+  {
+   "ja": "17",
+   "en": "17",
+   "style": "keep"
+  },
+  {
+   "ja": "Wealk",
+   "en": "Weak",
+   "style": "keep"
+  },
+  {
+   "ja": "124",
+   "en": "124",
+   "style": "keep"
+  }
+ ],
+ "T0103501": [
+  {
+   "ja": "ダンジョン内部を自由に探索して",
+   "en": "Explore the Dungeon freely",
+   "style": "headline"
+  },
+  {
+   "ja": "最深部を目指そう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "最深部を目指そう！ [draw]",
+   "en": "*and reach its depths!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 417,
+    "y": 376.5,
+    "w": 573,
+    "h": 68.9
+   }
+  }
+ ]
+}

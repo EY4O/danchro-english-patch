@@ -1,0 +1,1075 @@
+{
+ "T0101501": [
+  {
+   "ja": "英雄罩め始まり、！",
+   "en": "A Hero's Tale Begins",
+   "style": "keep"
+  },
+  {
+   "ja": "「堅物のメダル」を集めて",
+   "en": "Collect *Monster Medals*",
+   "style": "headline"
+  },
+  {
+   "ja": "責重なアイテム＆交換しよう！",
+   "en": "and trade them for *rare items*!",
+   "style": "headline"
+  }
+ ],
+ "T0102001": [
+  {
+   "ja": "ポーション",
+   "en": "Potion",
+   "style": "ui"
+  },
+  {
+   "ja": "SSR",
+   "en": "SSR",
+   "style": "keep"
+  },
+  {
+   "ja": "0/3",
+   "en": "0/3",
+   "style": "keep"
+  },
+  {
+   "ja": "0/0",
+   "en": "0/0",
+   "style": "keep"
+  },
+  {
+   "ja": "特性一號",
+   "en": "Trait List",
+   "style": "ui",
+   "size": 11,
+   "dx": -4
+  },
+  {
+   "ja": "バトルアイテム使用時、自身にくカ＞ステイタス上昇6",
+   "en": "Using a Battle Item grants you",
+   "style": "ui",
+   "size": 11,
+   "erase": "box"
+  },
+  {
+   "ja": "※を付与、",
+   "en": "Strength Up 6%.",
+   "style": "ui",
+   "size": 11,
+   "erase": "box"
+  },
+  {
+   "ja": "バトルアイテム使用時、自身に＜力＞ステイタス上昇",
+   "en": "Using a Battle Item grants you",
+   "style": "ui",
+   "size": 11,
+   "erase": "box"
+  },
+  {
+   "ja": "7%を付与、",
+   "en": "Magic Up 7%.",
+   "style": "ui",
+   "size": 11,
+   "erase": "box"
+  },
+  {
+   "ja": "バトルアイテム使用除、自身にく耐久＞ステイタス上昇",
+   "en": "Using a Battle Item grants you",
+   "style": "ui",
+   "size": 11,
+   "erase": "box"
+  },
+  {
+   "ja": "7%を付与。",
+   "en": "Endurance Up 7%.",
+   "style": "ui",
+   "size": 11,
+   "erase": "box"
+  },
+  {
+   "ja": "自動選択",
+   "en": "Auto Select",
+   "style": "ui",
+   "size": 12,
+   "dx": -8
+  },
+  {
+   "ja": "リセット",
+   "en": "Reset",
+   "style": "ui",
+   "size": 12,
+   "dx": 3
+  },
+  {
+   "ja": "作り直し 00/10",
+   "en": "Remakes   00/10",
+   "style": "ui",
+   "size": 12,
+   "color": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "ja": "作り直す",
+   "en": "Remake",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "dx": -1
+  },
+  {
+   "ja": "作り直し完子",
+   "en": "Remake Complete",
+   "style": "headline",
+   "dx": -40
+  },
+  {
+   "ja": "作り直しを行う度に様々な特性が現れる！",
+   "en": "Each *Remake* brings out *different traits*!",
+   "style": "headline",
+   "box": {
+    "x": 38,
+    "y": 347,
+    "w": 628,
+    "h": 46
+   }
+  },
+  {
+   "ja": "お気に入りの効果が付くまで何度も挑戦しよう！",
+   "en": "*Keep trying* for the effect you want!",
+   "style": "headline",
+   "box": {
+    "x": 250,
+    "y": 393,
+    "w": 748,
+    "h": 44
+   }
+  }
+ ],
+ "T0102302": [
+  {
+   "ja": "ライバルに勝利し闘位を上げると",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "「闘技大会コイン」が手に入る！",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "「闘技大会コイン」を集めて交換所で",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "豪華報酬と交換しよう！",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "L1",
+   "en": "*Beat rivals* to raise your *Rank*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 85,
+    "y": 82,
+    "w": 375,
+    "h": 32
+   }
+  },
+  {
+   "ja": "L2",
+   "en": "and earn *Tournament Coins*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 90,
+    "y": 117,
+    "w": 364,
+    "h": 32
+   }
+  },
+  {
+   "ja": "R1",
+   "en": "Trade *Tournament Coins* at the",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 558,
+    "y": 82,
+    "w": 396,
+    "h": 32
+   }
+  },
+  {
+   "ja": "R2",
+   "en": "Exchange for *lavish rewards*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 570,
+    "y": 117,
+    "w": 371,
+    "h": 32
+   }
+  }
+ ],
+ "T0103302": [
+  {
+   "ja": "専用素材か絆を使用して",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "アビリティを解放しょう！",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "H1",
+   "en": "Use *special materials* or *Bonds*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 38,
+    "y": 8,
+    "w": 485,
+    "h": 40
+   }
+  },
+  {
+   "ja": "H2",
+   "en": "to unlock *Abilities*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 185,
+    "y": 50,
+    "w": 290,
+    "h": 40
+   }
+  },
+  {
+   "ja": "バトル時常に、自身のユニットに＜魔力＞ステイタス上昇2%を",
+   "en": "Always active in battle: grants your unit",
+   "style": "ui",
+   "size": 14
+  },
+  {
+   "ja": "付与。",
+   "en": "Magic Up 2%.",
+   "style": "ui",
+   "size": 14
+  },
+  {
+   "ja": "アイテム",
+   "en": "Items",
+   "style": "ui",
+   "size": 18,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "dx": 13
+  },
+  {
+   "ja": "絆",
+   "en": "Bonds",
+   "style": "ui",
+   "size": 18,
+   "dx": -18
+  },
+  {
+   "ja": "万能の絆",
+   "en": "Universal Bond",
+   "style": "ui",
+   "size": 14,
+   "dx": -7
+  },
+  {
+   "ja": "36/5",
+   "en": "36/5",
+   "style": "keep"
+  },
+  {
+   "ja": "12/3",
+   "en": "12/3",
+   "style": "keep"
+  },
+  {
+   "ja": "5/1",
+   "en": "5/1",
+   "style": "keep"
+  },
+  {
+   "ja": "解放",
+   "en": "Unlock",
+   "style": "ui",
+   "size": 20,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "dx": -9
+  }
+ ],
+ "T0103502": [
+  {
+   "ja": "「ないな」「これ以上は厳しいな」。",
+   "en": "*\"Too dangerous...\" \"I can't go any further...\"*",
+   "style": "headline"
+  },
+  {
+   "ja": "と感じたらリタイアしてアイテムを持ち帰ろう！",
+   "en": " ",
+   "style": "headline",
+   "box": {
+    "x": 110,
+    "y": 380,
+    "w": 600,
+    "h": 68
+   }
+  },
+  {
+   "ja": "line2 erase right",
+   "en": " ",
+   "style": "headline",
+   "box": {
+    "x": 700,
+    "y": 395,
+    "w": 294,
+    "h": 53
+   }
+  },
+  {
+   "ja": "line2 draw",
+   "en": "If so, *Retire* and *bring your items home*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 110,
+    "y": 379,
+    "w": 860,
+    "h": 56
+   }
+  },
+  {
+   "ja": "bubble line 1",
+   "en": "\"Adventurers shouldn't",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    20,
+    20,
+    20
+   ],
+   "erase": "none",
+   "box": {
+    "x": 750,
+    "y": 140,
+    "w": 170,
+    "h": 15
+   }
+  },
+  {
+   "ja": "bubble line 2",
+   "en": "go on adventures.\"",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    20,
+    20,
+    20
+   ],
+   "erase": "none",
+   "box": {
+    "x": 765,
+    "y": 157,
+    "w": 150,
+    "h": 15
+   }
+  },
+  {
+   "ja": "bubble left 0",
+   "en": "Remember",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    20,
+    20,
+    20
+   ],
+   "erase": "none",
+   "box": {
+    "x": 696,
+    "y": 200,
+    "w": 60,
+    "h": 15
+   }
+  },
+  {
+   "ja": "bubble left 1",
+   "en": "that,",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    20,
+    20,
+    20
+   ],
+   "erase": "none",
+   "box": {
+    "x": 696,
+    "y": 219,
+    "w": 60,
+    "h": 15
+   }
+  },
+  {
+   "ja": "bubble left 2",
+   "en": "okay?",
+   "style": "ui",
+   "size": 14,
+   "color": [
+    20,
+    20,
+    20
+   ],
+   "erase": "none",
+   "box": {
+    "x": 696,
+    "y": 238,
+    "w": 60,
+    "h": 15
+   }
+  },
+  {
+   "ja": "bubble glyph 0",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 738,
+    "y": 167,
+    "w": 14,
+    "h": 25
+   }
+  },
+  {
+   "ja": "bubble glyph 1",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 702,
+    "y": 168,
+    "w": 14,
+    "h": 24
+   }
+  },
+  {
+   "ja": "bubble glyph 2",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 169,
+    "w": 32,
+    "h": 9
+   }
+  },
+  {
+   "ja": "bubble glyph 3",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 906,
+    "y": 177,
+    "w": 27,
+    "h": 25
+   }
+  },
+  {
+   "ja": "bubble glyph 4",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 179,
+    "w": 30,
+    "h": 13
+   }
+  },
+  {
+   "ja": "bubble glyph 5",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 193,
+    "w": 30,
+    "h": 13
+   }
+  },
+  {
+   "ja": "bubble glyph 6",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 713,
+    "y": 194,
+    "w": 9,
+    "h": 4
+   }
+  },
+  {
+   "ja": "bubble glyph 7",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 697,
+    "y": 195,
+    "w": 14,
+    "h": 18
+   }
+  },
+  {
+   "ja": "bubble glyph 8",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 713,
+    "y": 201,
+    "w": 8,
+    "h": 7
+   }
+  },
+  {
+   "ja": "bubble glyph 9",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 740,
+    "y": 201,
+    "w": 17,
+    "h": 15
+   }
+  },
+  {
+   "ja": "bubble glyph 10",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 906,
+    "y": 204,
+    "w": 27,
+    "h": 26
+   }
+  },
+  {
+   "ja": "bubble glyph 11",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 207,
+    "w": 33,
+    "h": 26
+   }
+  },
+  {
+   "ja": "bubble glyph 12",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 707,
+    "y": 212,
+    "w": 11,
+    "h": 8
+   }
+  },
+  {
+   "ja": "bubble glyph 13",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 699,
+    "y": 222,
+    "w": 20,
+    "h": 17
+   }
+  },
+  {
+   "ja": "bubble glyph 14",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 734,
+    "y": 224,
+    "w": 24,
+    "h": 23
+   }
+  },
+  {
+   "ja": "bubble glyph 15",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 908,
+    "y": 224,
+    "w": 25,
+    "h": 8
+   }
+  },
+  {
+   "ja": "bubble glyph 16",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 234,
+    "w": 32,
+    "h": 27
+   }
+  },
+  {
+   "ja": "bubble glyph 17",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 912,
+    "y": 235,
+    "w": 21,
+    "h": 19
+   }
+  },
+  {
+   "ja": "bubble glyph 18",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 700,
+    "y": 239,
+    "w": 11,
+    "h": 8
+   }
+  },
+  {
+   "ja": "bubble glyph 19",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 745,
+    "y": 251,
+    "w": 10,
+    "h": 24
+   }
+  },
+  {
+   "ja": "bubble glyph 20",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 735,
+    "y": 255,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "ja": "bubble glyph 21",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 696,
+    "y": 256,
+    "w": 13,
+    "h": 17
+   }
+  },
+  {
+   "ja": "bubble glyph 22",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 714,
+    "y": 256,
+    "w": 8,
+    "h": 9
+   }
+  },
+  {
+   "ja": "bubble glyph 23",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 913,
+    "y": 259,
+    "w": 20,
+    "h": 5
+   }
+  },
+  {
+   "ja": "bubble glyph 24",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 264,
+    "w": 32,
+    "h": 23
+   }
+  },
+  {
+   "ja": "bubble glyph 25",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 904,
+    "y": 265,
+    "w": 29,
+    "h": 18
+   }
+  },
+  {
+   "ja": "bubble glyph 26",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 922,
+    "y": 265,
+    "w": 11,
+    "h": 10
+   }
+  },
+  {
+   "ja": "bubble glyph 27",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 266,
+    "w": 14,
+    "h": 16
+   }
+  },
+  {
+   "ja": "bubble glyph 28",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 732,
+    "y": 276,
+    "w": 27,
+    "h": 27
+   }
+  },
+  {
+   "ja": "bubble glyph 29",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 696,
+    "y": 278,
+    "w": 26,
+    "h": 24
+   }
+  },
+  {
+   "ja": "bubble glyph 30",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 914,
+    "y": 289,
+    "w": 19,
+    "h": 23
+   }
+  },
+  {
+   "ja": "bubble glyph 31",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 289,
+    "w": 30,
+    "h": 13
+   }
+  },
+  {
+   "ja": "bubble glyph 32",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 905,
+    "y": 290,
+    "w": 28,
+    "h": 16
+   }
+  },
+  {
+   "ja": "bubble glyph 33",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 735,
+    "y": 295,
+    "w": 8,
+    "h": 7
+   }
+  },
+  {
+   "ja": "bubble glyph 34",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 931,
+    "y": 303,
+    "w": 33,
+    "h": 40
+   }
+  },
+  {
+   "ja": "bubble glyph 35",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 740,
+    "y": 310,
+    "w": 17,
+    "h": 16
+   }
+  },
+  {
+   "ja": "bubble glyph 36",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 902,
+    "y": 315,
+    "w": 31,
+    "h": 24
+   }
+  },
+  {
+   "ja": "bubble glyph 37",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 917,
+    "y": 316,
+    "w": 16,
+    "h": 7
+   }
+  },
+  {
+   "ja": "bubble glyph 38",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 734,
+    "y": 334,
+    "w": 22,
+    "h": 23
+   }
+  },
+  {
+   "ja": "bubble glyph 39",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 901,
+    "y": 348,
+    "w": 32,
+    "h": 17
+   }
+  },
+  {
+   "ja": "bubble glyph 40",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 919,
+    "y": 348,
+    "w": 14,
+    "h": 10
+   }
+  },
+  {
+   "ja": "bubble glyph 41",
+   "en": "",
+   "style": "ui",
+   "erase": "glyphs",
+   "box": {
+    "x": 900,
+    "y": 369,
+    "w": 33,
+    "h": 9
+   }
+  }
+ ],
+ "T0103503": [
+  {
+   "ja": "ボスモンスターやレアモンスターに遭遇も！",
+   "en": "*You might even meet Boss and Rare Monsters!?*",
+   "style": "headline"
+  },
+  {
+   "ja": "限定のバトルアイテムや",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "強化素材を手に入れよう！",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "D1",
+   "en": "Get *limited Battle Items*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 330,
+    "y": 338,
+    "w": 460,
+    "h": 50
+   }
+  },
+  {
+   "ja": "D2",
+   "en": "and *enhancement materials*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 432,
+    "y": 388,
+    "w": 560,
+    "h": 50
+   }
+  }
+ ],
+ "T0200501": [
+  {
+   "ja": "有利な属性で戦う事で",
+   "en": " ",
+   "style": "headline"
+  },
+  {
+   "ja": "E1",
+   "en": "Use *element advantages*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 42,
+    "y": 50,
+    "w": 420,
+    "h": 43
+   }
+  },
+  {
+   "ja": "Lesist",
+   "en": "Resist",
+   "style": "keep"
+  },
+  {
+   "ja": "21",
+   "en": "21",
+   "style": "keep"
+  },
+  {
+   "ja": "Wealk",
+   "en": "Weak",
+   "style": "keep"
+  },
+  {
+   "ja": "39",
+   "en": "39",
+   "style": "keep"
+  },
+  {
+   "ja": "与えるダメージが増加！",
+   "en": " ",
+   "style": "headline",
+   "box": {
+    "x": 640,
+    "y": 369,
+    "w": 350,
+    "h": 71
+   }
+  },
+  {
+   "ja": "E2 erase left",
+   "en": " ",
+   "style": "headline",
+   "box": {
+    "x": 568,
+    "y": 388,
+    "w": 80,
+    "h": 52
+   }
+  },
+  {
+   "ja": "E2",
+   "en": "to *deal more damage*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 572,
+    "y": 378,
+    "w": 420,
+    "h": 48
+   }
+  }
+ ]
+}

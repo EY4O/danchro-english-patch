@@ -1,0 +1,322 @@
+{
+ "T0101401": [
+  {
+   "ja": "フリー任務",
+   "en": "Free Missions",
+   "style": "ui"
+  },
+  {
+   "ja": "通算ログイン1日を達成する",
+   "en": "Log in for 1 day total",
+   "style": "ui",
+   "size": 15
+  },
+  {
+   "ja": "受取",
+   "en": "Claim",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 16,
+   "dx": -3
+  },
+  {
+   "ja": "プレイヤーランクを2にする",
+   "en": "Reach Player Rank 2",
+   "style": "ui",
+   "size": 15
+  },
+  {
+   "ja": "移動",
+   "en": "Go",
+   "style": "ui",
+   "size": 16,
+   "dx": 5
+  },
+  {
+   "ja": "移動 (2)",
+   "en": "Go",
+   "style": "ui",
+   "size": 16,
+   "dx": 6,
+   "box": {
+    "x": 496,
+    "y": 184,
+    "w": 38,
+    "h": 18
+   }
+  },
+  {
+   "ja": "移動 (3)",
+   "en": "Go",
+   "style": "ui",
+   "size": 16,
+   "dx": 6,
+   "box": {
+    "x": 498,
+    "y": 255,
+    "w": 34,
+    "h": 18
+   }
+  },
+  {
+   "ja": "クエストを初めてクリアする",
+   "en": "Clear a quest for the first time",
+   "style": "ui",
+   "size": 15
+  },
+  {
+   "ja": "冒険者1体の熟練度を10にする",
+   "en": "Raise 1 adventurer's Mastery to 10",
+   "style": "ui",
+   "size": 15,
+   "dx": -2
+  },
+  {
+   "ja": "色々な任務をクリアしで報酬を手に入れよう！",
+   "en": "Clear *all kinds of missions* to earn *rewards*!",
+   "style": "headline",
+   "box": {
+    "x": 38,
+    "y": 391,
+    "w": 664,
+    "h": 46
+   }
+  }
+ ],
+ "T0102101": [
+  {
+   "ja": "贈り物を糖してCPランクを上げよう！！",
+   "en": "Give *gifts* to raise your *CP Rank*!!",
+   "style": "headline",
+   "box": {
+    "x": 32,
+    "y": 10,
+    "w": 618,
+    "h": 54
+   }
+  },
+  {
+   "ja": "博愛の贈り物 （小）",
+   "en": "Gift of Goodwill (S)",
+   "style": "ui"
+  },
+  {
+   "ja": "獲得CP",
+   "en": "CP Gained",
+   "style": "ui",
+   "size": 15
+  },
+  {
+   "ja": "CPランクアップ",
+   "en": "CP Rank Up",
+   "style": "headline",
+   "dx": 44
+  },
+  {
+   "ja": "仲良くなるとエピソードが解放されたり報酬が貰える！",
+   "en": "Grow closer to *unlock Episodes* and *earn rewards*!",
+   "style": "headline"
+  }
+ ],
+ "T0102501": [
+  {
+   "ja": "他のプレイヤーと共闘して",
+   "en": "*Team up with other players*",
+   "style": "headline",
+   "box": {
+    "x": 44,
+    "y": 41,
+    "w": 444,
+    "h": 50
+   }
+  },
+  {
+   "ja": "レイドボスに挑もう！",
+   "en": "to take on *Raid Bosses*!",
+   "style": "headline",
+   "box": {
+    "x": 212,
+    "y": 91,
+    "w": 329,
+    "h": 48
+   }
+  },
+  {
+   "ja": "ボスを討代して",
+   "en": "Defeat the boss",
+   "style": "headline",
+   "box": {
+    "x": 126,
+    "y": 318,
+    "w": 208,
+    "h": 44
+   }
+  },
+  {
+   "ja": "『豪華報酬」をゲット』*",
+   "en": "to earn *lavish rewards*!",
+   "style": "headline",
+   "box": {
+    "x": 226,
+    "y": 362,
+    "w": 397,
+    "h": 46
+   }
+  }
+ ],
+ "T0102503": [
+  {
+   "ja": "ヘイトをコントロールしながら戦おう！",
+   "en": "Fight while keeping *Hate* under *control*!",
+   "style": "headline",
+   "dx": -95,
+   "box": {
+    "x": 218,
+    "y": 4,
+    "w": 595,
+    "h": 52
+   }
+  },
+  {
+   "ja": "ヘイトは敵にダメージを与えるか",
+   "en": "*Hate* shifts as you *deal damage*",
+   "style": "headline",
+   "dx": -22,
+   "box": {
+    "x": 72,
+    "y": 368,
+    "w": 396,
+    "h": 36
+   }
+  },
+  {
+   "ja": "技をだすことで変動！",
+   "en": "or *use skills*!",
+   "style": "headline",
+   "dx": 43,
+   "box": {
+    "x": 136,
+    "y": 402,
+    "w": 247,
+    "h": 36
+   }
+  },
+  {
+   "ja": "ディフェンスロールの技は",
+   "en": "*Defense Role skills*",
+   "style": "headline",
+   "dx": 26,
+   "box": {
+    "x": 616,
+    "y": 368,
+    "w": 317,
+    "h": 36
+   }
+  },
+  {
+   "ja": "ヘイトをもらいやすい！",
+   "en": "*draw Hate* more easily!",
+   "style": "headline",
+   "dx": -23,
+   "box": {
+    "x": 636,
+    "y": 402,
+    "w": 278,
+    "h": 36
+   }
+  }
+ ],
+ "T0102801": [
+  {
+   "ja": "新しいキャラクターでバトルに挑戦してみよう！",
+   "en": "Try out *new characters* in *battle*!",
+   "style": "headline",
+   "dx": 54
+  },
+  {
+   "ja": "自分に合ったキャラクターを見つけよう！",
+   "en": "*Find the character that suits you!*",
+   "style": "headline",
+   "dx": 11,
+   "box": {
+    "x": 130,
+    "y": 352,
+    "w": 774,
+    "h": 58
+   }
+  },
+  {
+   "ja": "※お試しできるキャラクターはガチャの開催期間によって変わります。",
+   "en": "Note: Trial characters vary by gacha banner period.",
+   "style": "headline",
+   "dx": 15,
+   "box": {
+    "x": 434,
+    "y": 417,
+    "w": 576,
+    "h": 28
+   }
+  }
+ ],
+ "T0200203": [
+  {
+   "ja": "《スピード〉は技の揺まる速度が速いロール",
+   "en": "The *Speed* role *charges skills quickly*.",
+   "style": "headline",
+   "dx": -34,
+   "box": {
+    "x": 196,
+    "y": 346,
+    "w": 649,
+    "h": 48
+   }
+  },
+  {
+   "ja": "素早い攻撃を駆使して敵を翻弄しよう！",
+   "en": "Use *swift attacks* to run rings around foes!",
+   "style": "headline",
+   "dx": -102,
+   "box": {
+    "x": 246,
+    "y": 395,
+    "w": 542,
+    "h": 48
+   }
+  }
+ ],
+ "T0200601": [
+  {
+   "ja": "ゲージを削って強力を攻撃を阻止しよう！",
+   "en": "*Drain the gauge* to *stop big attacks*!",
+   "style": "headline",
+   "dx": -30,
+   "box": {
+    "x": 184,
+    "y": 9,
+    "w": 650,
+    "h": 50
+   }
+  },
+  {
+   "ja": "Break!/",
+   "en": "Break!",
+   "style": "keep"
+  },
+  {
+   "ja": "ブレイクが成功すると一方的に攻撃できるチャンス！",
+   "en": "*Land a Break* for a chance to *attack unopposed*!",
+   "style": "headline",
+   "dx": -24,
+   "box": {
+    "x": 106,
+    "y": 393,
+    "w": 806,
+    "h": 46
+   }
+  }
+ ]
+}

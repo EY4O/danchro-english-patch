@@ -1,0 +1,312 @@
+{
+ "T0100101": [
+  {
+   "ja": "【戦う鍛治師】ヴェルフ・クロッソ",
+   "en": "[Battle Smith] Welf Crozzo",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 15
+  },
+  {
+   "ja": "【和人の忍］ヤマト・命",
+   "en": "[Far Eastern Shinobi] Yamato Mikoto",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 15,
+   "dx": -39
+  },
+  {
+   "ja": "【策略のサポーター】リリルカ・アーデ",
+   "en": "[Scheming Supporter] Liliruca Arde",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 15
+  },
+  {
+   "ja": "新たな仲間たちと共に冒険へ出かけましょう！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "headline_draw",
+   "en": "Set out on an *adventure* with *new allies*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 47,
+    "y": 395,
+    "w": 614,
+    "h": 40
+   }
+  },
+  {
+   "ja": "冒険",
+   "en": "Adventure",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 16,
+   "dx": -13
+  }
+ ],
+ "T0100502": [
+  {
+   "ja": "熟練度強化でステイタスUP！",
+   "en": "Raise *Mastery* to boost your *Status*!",
+   "style": "headline"
+  },
+  {
+   "ja": "戦闘力",
+   "en": "Power",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "カ",
+   "en": "Strength",
+   "style": "ui",
+   "size": 12,
+   "dx": -14
+  },
+  {
+   "ja": "耐久",
+   "en": "Endurance",
+   "style": "ui",
+   "size": 12,
+   "dx": -8
+  },
+  {
+   "ja": "体力 214▶▶▶ 526",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "体力",
+   "en": "HP",
+   "style": "ui",
+   "size": 12,
+   "dx": -11,
+   "box": {
+    "x": 257,
+    "y": 106,
+    "w": 33,
+    "h": 17
+   }
+  },
+  {
+   "ja": "魔力",
+   "en": "Magic",
+   "style": "ui",
+   "size": 12,
+   "dx": -12
+  },
+  {
+   "ja": "器用",
+   "en": "Dexterity",
+   "style": "ui",
+   "size": 12,
+   "dx": -12
+  },
+  {
+   "ja": "自動選択",
+   "en": "Auto Select",
+   "style": "ui",
+   "size": 15
+  },
+  {
+   "ja": "リセット",
+   "en": "Reset",
+   "style": "ui",
+   "size": 15,
+   "dx": 10
+  },
+  {
+   "ja": "熟練度上昇",
+   "en": "Mastery Up",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 52,
+   "erase": "box"
+  }
+ ],
+ "T0101701": [
+  {
+   "ja": "プレヤー同士の",
+   "en": "*Real-time battles*",
+   "style": "headline",
+   "box": {
+    "x": 42,
+    "y": 32,
+    "w": 282,
+    "h": 40
+   }
+  },
+  {
+   "ja": "リアルタイムバトル！",
+   "en": "*against other players*!",
+   "style": "headline"
+  },
+  {
+   "ja": "他の冒険者達よりも多くの石を",
+   "en": "Gather *more magic stones* than",
+   "style": "headline"
+  },
+  {
+   "ja": "集めて勝利しよう！",
+   "en": "*other adventurers* to *win*!",
+   "style": "headline",
+   "dx": -139,
+   "box": {
+    "x": 660,
+    "y": 384,
+    "w": 340,
+    "h": 48
+   }
+  }
+ ],
+ "T0101901": [
+  {
+   "ja": "同じシーンカードを使って上限解放！",
+   "en": "Use *duplicate Scene Cards* for *Limit Release*!",
+   "style": "headline"
+  },
+  {
+   "ja": "シーンカードをさらに強化しよう！",
+   "en": "Make them *even stronger*!",
+   "style": "headline"
+  },
+  {
+   "ja": "ランク上限 10 ▶▶",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "ランク上限",
+   "en": "Rank Cap",
+   "style": "ui",
+   "box": {
+    "x": 140,
+    "y": 104,
+    "w": 86,
+    "h": 19
+   }
+  },
+  {
+   "ja": "シーンカード",
+   "en": "Scene Cards",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 18,
+   "dx": 3
+  },
+  {
+   "ja": "アイテム",
+   "en": "Items",
+   "style": "ui"
+  },
+  {
+   "ja": "上限解放",
+   "en": "Limit Release",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 56,
+   "erase": "box"
+  }
+ ],
+ "T0103401": [
+  {
+   "ja": "回想では読んだことのある過去のイベントストーリーや各種ムービーを",
+   "en": "In Memories, you can revisit *past event stories* and *movies*",
+   "style": "headline"
+  },
+  {
+   "ja": "見返すことができます！",
+   "en": "",
+   "style": "headline"
+  },
+  {
+   "ja": "line2_draw",
+   "en": "you've already seen!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 690,
+    "y": 74,
+    "w": 318,
+    "h": 40
+   }
+  },
+  {
+   "ja": "「回想の栞」を使って",
+   "en": "Use a *\"Bookmark of Memories\"*",
+   "style": "headline"
+  },
+  {
+   "ja": "読んだことのないストーリーを楽しむことも可能です！",
+   "en": "to *enjoy stories you haven't read yet*!",
+   "style": "headline"
+  }
+ ],
+ "T0200204": [
+  {
+   "ja": "《サポート》は補助技を得意とするロール",
+   "en": "*Supports* are experts at *assist skills*.",
+   "style": "headline"
+  },
+  {
+   "ja": "回復や能力強化で戦いを有利に進めよう！",
+   "en": "Use *healing* and *buffs* to turn the tide!",
+   "style": "headline"
+  }
+ ],
+ "T0200801": [
+  {
+   "ja": "必殺技ポタンをタップで必殺技が発動！",
+   "en": "Tap the *Ultimate button* to *unleash* it!",
+   "style": "headline"
+  },
+  {
+   "ja": "タイミングを見桠めて",
+   "en": "Pick the *right moment*",
+   "style": "headline"
+  },
+  {
+   "ja": "強力な一撃をお見舞いしょう！～。",
+   "en": "and land a *devastating blow*!",
+   "style": "headline",
+   "box": {
+    "x": 101,
+    "y": 368,
+    "w": 455,
+    "h": 58
+   }
+  }
+ ]
+}

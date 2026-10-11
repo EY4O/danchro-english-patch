@@ -1,0 +1,157 @@
+{
+ "T0200701": [
+  {
+   "ja": "技ポタンをタップして強力な技を発動！",
+   "en": "Tap a *Skill button* to unleash a *powerful skill*!",
+   "style": "headline"
+  },
+  {
+   "ja": "状況に応じて技を使い分け",
+   "en": "Pick the right skill for the moment",
+   "style": "headline"
+  },
+  {
+   "ja": "戦いを有利に進めよう！",
+   "en": "and *take control* of the fight!",
+   "style": "headline"
+  }
+ ],
+ "T0102201": [
+  {
+   "ja": "自分のスタイルに合ったファミリアに参加しよう！",
+   "en": "Join a *Familia that fits your style*!",
+   "style": "headline"
+  },
+  {
+   "ja": "参加するとファミリアバフで便利な効果が利用できる！",
+   "en": "Members enjoy *handy bonuses* from *Familia Buffs*!",
+   "style": "headline"
+  },
+  {
+   "ja": "ルーキーの集い",
+   "en": "Rookie Gathering",
+   "style": "ui"
+  },
+  {
+   "ja": "管理",
+   "en": "Manage",
+   "style": "ui"
+  },
+  {
+   "ja": "みんなで仲良くやりましょう。",
+   "en": "Let's all get along!",
+   "style": "ui"
+  },
+  {
+   "ja": "もくもく",
+   "en": "Quiet",
+   "style": "ui",
+   "size": 22,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "コミュニケーション控えめに",
+   "en": "For players who want to",
+   "style": "ui",
+   "size": 12,
+   "color": [
+    50,
+    40,
+    30
+   ],
+   "dy": 4
+  },
+  {
+   "ja": "ファミリアコンテンツを",
+   "en": "enjoy Familia content",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "遊びたい人向け",
+   "en": "without much chatting",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "ワイワイ",
+   "en": "Lively",
+   "style": "ui",
+   "size": 21,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "仲問とワイワイ積極的に",
+   "en": "For players who love",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "コミュニケーションして",
+   "en": "chatting and hanging out",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "いきたい人向け",
+   "en": "with their Familia",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "ゆったり",
+   "en": "Relaxed",
+   "style": "ui",
+   "size": 22,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "話を聞きたい人、必要な時に",
+   "en": "For players who like to listen",
+   "style": "ui",
+   "size": 12,
+   "color": [
+    50,
+    40,
+    30
+   ],
+   "dy": 2
+  },
+  {
+   "ja": "しゃべりたい人向け",
+   "en": "and chat when needed",
+   "style": "ui",
+   "size": 12
+  },
+  {
+   "ja": "活動ログ",
+   "en": "Activity Log",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "ja": "バフー覧",
+   "en": "Buffs",
+   "style": "ui"
+  },
+  {
+   "ja": "ルーキーがファミリアに加入しました。",
+   "en": "Rookie joined the Familia.",
+   "style": "ui"
+  },
+  {
+   "ja": "ファミリアを新規作成",
+   "en": "Create a Familia",
+   "style": "ui"
+  },
+  {
+   "ja": "あと 600",
+   "en": "600 to go",
+   "style": "ui"
+  }
+ ]
+}

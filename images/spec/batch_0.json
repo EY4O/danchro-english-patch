@@ -1,0 +1,557 @@
+{
+ "T0101702": [
+  {
+   "ja": "モンスターや他のプレイヤーを倒して「魔石」を集めよう！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "モンスターや他のプレイヤーを倒して「魔石」を集めよう！ [en]",
+   "en": "Defeat *monsters* and *other players* to collect *magic stones*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 26,
+    "y": 334,
+    "w": 972,
+    "h": 42
+   }
+  },
+  {
+   "ja": "HPが0になると集めた魔石を少し失ってしまうので要注意！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "HPが0になると集めた魔石を少し失ってしまうので要注意！ [en]",
+   "en": "Drop to 0 HP and you'll *lose some of your magic stones*, so be careful!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 37,
+    "y": 385,
+    "w": 950,
+    "h": 35
+   }
+  }
+ ],
+ "T0102202": [
+  {
+   "ja": "ファミリアに参加したら",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "ファミリアに参加したら [en]",
+   "en": "Once you've joined a Familia,",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 30,
+    "y": 26,
+    "w": 424,
+    "h": 37
+   }
+  },
+  {
+   "ja": "クエストをクリアしてファミリアLvを上げよう！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "クエストをクリアしてファミリアLvを上げよう！ [en]",
+   "en": "*clear quests to raise your Familia Lv.!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 28,
+    "y": 62,
+    "w": 617,
+    "h": 42
+   }
+  },
+  {
+   "ja": "5%OFF",
+   "en": "5%OFF",
+   "style": "keep"
+  },
+  {
+   "ja": "10%OFF",
+   "en": "10%OFF",
+   "style": "keep"
+  },
+  {
+   "ja": "15%OFF",
+   "en": "15%OFF",
+   "style": "keep"
+  },
+  {
+   "ja": "LVaL-",
+   "en": "LVaL-",
+   "style": "keep"
+  },
+  {
+   "ja": "Lv.2",
+   "en": "Lv.2",
+   "style": "keep"
+  },
+  {
+   "ja": "Lv.3",
+   "en": "Lv.3",
+   "style": "keep"
+  },
+  {
+   "ja": "LV.",
+   "en": "LV.",
+   "style": "keep"
+  },
+  {
+   "ja": "5",
+   "en": "5",
+   "style": "keep"
+  },
+  {
+   "ja": "10",
+   "en": "10",
+   "style": "keep"
+  },
+  {
+   "ja": "15",
+   "en": "15",
+   "style": "keep"
+  },
+  {
+   "ja": "活動ログ",
+   "en": "Activity Log",
+   "style": "ui",
+   "dx": -14
+  },
+  {
+   "ja": "バフ一覧",
+   "en": "Buffs",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "dx": 10,
+   "erase": "box"
+  },
+  {
+   "ja": "発動中",
+   "en": "Active",
+   "style": "ui",
+   "size": 13,
+   "color": [
+    60,
+    175,
+    212
+   ]
+  },
+  {
+   "ja": "強化費用割引 Lv.1",
+   "en": "Upgrade Cost Discount Lv. 1",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "強化費用割引 Lv.2",
+   "en": "Upgrade Cost Discount Lv. 2",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "強化費用割引 Lv.3",
+   "en": "Upgrade Cost Discount Lv. 3",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "強化に必要なヴァリスを5%割引",
+   "en": "5% off Valis needed for upgrades",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "強化に必要なヴァリスを10%割引",
+   "en": "10% off Valis needed for upgrades",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "強化に必要なヴァリスを15%割引",
+   "en": "15% off Valis needed for upgrades",
+   "style": "ui",
+   "size": 13
+  },
+  {
+   "ja": "cut-off row",
+   "en": "",
+   "style": "ui",
+   "box": {
+    "x": 246,
+    "y": 402,
+    "w": 150,
+    "h": 10
+   },
+   "size": 13,
+   "erase": "box"
+  },
+  {
+   "ja": "ファミリアLv.が上昇すると",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "ファミリアLv.が上昇すると [en]",
+   "en": "As your Familia Lv. rises,",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 629,
+    "y": 352,
+    "w": 363,
+    "h": 37
+   }
+  },
+  {
+   "ja": "ファミリアバフが強化される！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "ファミリアバフが強化される！ [en]",
+   "en": "*Familia Buffs power up!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 539,
+    "y": 386,
+    "w": 457,
+    "h": 49
+   }
+  }
+ ],
+ "T0102504": [
+  {
+   "ja": "レイドボスを討伐すると",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "レイドボスを討伐すると [en]",
+   "en": "*Defeat Raid Bosses* to",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 105,
+    "y": 28,
+    "w": 340,
+    "h": 40
+   }
+  },
+  {
+   "ja": "「討伐証」が手に入る！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "「討伐証」が手に入る！ [en]",
+   "en": "earn *Slayer's Proofs*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 114,
+    "y": 72,
+    "w": 323,
+    "h": 40
+   }
+  },
+  {
+   "ja": "『代証」を集めで交換所で",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "『代証」を集めで交換所で [en]",
+   "en": "Trade *Slayer's Proofs* at the",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 552,
+    "y": 32,
+    "w": 406,
+    "h": 37
+   }
+  },
+  {
+   "ja": "豪華報酬と交換しょう！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "豪華報酬と交換しょう！ [en]",
+   "en": "*Exchange* for *great rewards*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 545,
+    "y": 75,
+    "w": 420,
+    "h": 37
+   }
+  }
+ ],
+ "T0102602": [
+  {
+   "ja": "EXレイドでは、ファミリアメンパーと一緒に",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "EXレイドでは、ファミリアメンパーと一緒に [en]",
+   "en": "In *EX Raids*, team up with *Familia members*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 32,
+    "y": 21,
+    "w": 708,
+    "h": 42
+   }
+  },
+  {
+   "ja": "タイムアタックが可能！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "タイムアタックが可能！ [en]",
+   "en": "for a *Time Attack* challenge!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 210,
+    "y": 58,
+    "w": 546,
+    "h": 49
+   }
+  },
+  {
+   "ja": "他フアミリッと",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "他フアミリッと [en]",
+   "en": "Race *other Familias*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 396,
+    "y": 143,
+    "w": 249,
+    "h": 32
+   }
+  },
+  {
+   "ja": "討伐タイムを競い合おう！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "討伐タイムを競い合おう！ [en]",
+   "en": "for the *fastest clear time*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 363,
+    "y": 173,
+    "w": 315,
+    "h": 32
+   }
+  },
+  {
+   "ja": "ランキング上位で豪華報酬ゲット！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "ランキング上位で豪華報酬ゲット！ [en]",
+   "en": "*Rank high* to win *lavish rewards*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 200,
+    "y": 394,
+    "w": 631,
+    "h": 49
+   }
+  }
+ ],
+ "T0102901": [
+  {
+   "ja": "制限時間10秒で、1体でも多くの敵を倒そう！！！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "制限時間10秒で、1体でも多くの敵を倒そう！！！ [en]",
+   "en": "*Defeat as many enemies as you can in 180 seconds!!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 80,
+    "y": 31,
+    "w": 864,
+    "h": 42
+   }
+  },
+  {
+   "ja": "敵を倒してハイスコアを目指そう！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "敵を倒してハイスコアを目指そう！ [en]",
+   "en": "Defeat enemies and chase a high score!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 164,
+    "y": 334,
+    "w": 697,
+    "h": 44
+   }
+  },
+  {
+   "ja": "キャラを強化してハイスコア更新で報酬をGET！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "キャラを強化してハイスコア更新で報酬をGET！ [en]",
+   "en": "Power up to *beat your best* and *GET rewards*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 135,
+    "y": 387,
+    "w": 754,
+    "h": 42
+   }
+  }
+ ],
+ "T0103104": [
+  {
+   "ja": "「バトルをクリアした編成」は封印され、",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "「バトルをクリアした編成」は封印され、 [en]",
+   "en": "*Formations that clear a battle* get sealed and",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 62,
+    "y": 15,
+    "w": 615,
+    "h": 35
+   }
+  },
+  {
+   "ja": "開催期間中は別のバトルで使用できなくなる！",
+   "en": "",
+   "style": "headline",
+   "erase": "box"
+  },
+  {
+   "ja": "開催期間中は別のバトルで使用できなくなる！ [en]",
+   "en": "*can't be used in other battles during the event!*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 250,
+    "y": 58,
+    "w": 716,
+    "h": 40
+   }
+  },
+  {
+   "ja": "50",
+   "en": "50",
+   "style": "keep"
+  },
+  {
+   "ja": "SSR",
+   "en": "SSR",
+   "style": "keep"
+  },
+  {
+   "ja": "UR",
+   "en": "UR",
+   "style": "keep"
+  },
+  {
+   "ja": "+10%",
+   "en": "+10%",
+   "style": "keep"
+  },
+  {
+   "ja": "ユニット1 X 7,430",
+   "en": "ユニット1 X 7,430",
+   "style": "keep"
+  },
+  {
+   "ja": "Unit1",
+   "en": "Unit 1",
+   "style": "ui",
+   "box": {
+    "x": 643,
+    "y": 349,
+    "w": 64,
+    "h": 20
+   },
+   "size": 15,
+   "color": [
+    50,
+    45,
+    40
+   ]
+  },
+  {
+   "ja": "B任が7を",
+   "en": "Element Bonus",
+   "style": "ui",
+   "size": 10,
+   "color": [
+    40,
+    150,
+    210
+   ],
+   "erase": "box",
+   "dx": -2
+  }
+ ]
+}
