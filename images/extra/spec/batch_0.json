@@ -1,0 +1,74 @@
+{
+ "ui_atlases_separate_assets_ui_atlases_hud_dma_ui_hud__sactx-0-2048x2048-DXT5_BC3-dma_ui_hud-07bda40a": [
+  {
+   "ja": "強敵",
+   "en": "Strong Foe",
+   "style": "plate",
+   "box": {
+    "x": 1052,
+    "y": 95,
+    "w": 248,
+    "h": 136
+   },
+   "pad": 2,
+   "max_right": 1300
+  },
+  {
+   "ja": "出現",
+   "en": "Appears!",
+   "style": "plate",
+   "box": {
+    "x": 1553,
+    "y": 292,
+    "w": 244,
+    "h": 126
+   },
+   "pad": 2,
+   "max_right": 1797
+  }
+ ],
+ "ui_atlases_separate_assets_ui_atlases_gacha_gachaperformance__sactx-2-2048x2048-DXT5_BC3-GachaPerformance-8695aa02": [
+  {
+   "ja": "引け！",
+   "en": "*Pull!*",
+   "style": "headline",
+   "box": {
+    "x": 2,
+    "y": 24,
+    "w": 302,
+    "h": 116
+   },
+   "pad": 2,
+   "dx": 49
+  }
+ ],
+ "ui_atlases_separate_assets_ui_atlases_gacha_gachaperformance__sactx-3-2048x2048-DXT5_BC3-GachaPerformance-8695aa02": [
+  {
+   "ja": "引け！",
+   "en": "*Pull!*",
+   "style": "headline",
+   "box": {
+    "x": 6,
+    "y": 170,
+    "w": 316,
+    "h": 136
+   },
+   "pad": 2,
+   "dx": 39
+  }
+ ],
+ "ui_atlases_separate_assets_ui_atlases_gacha_gachaperformance__sactx-4-2048x2048-DXT5_BC3-GachaPerformance-8695aa02": [
+  {
+   "ja": "引け！",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 1364,
+    "y": 1458,
+    "w": 322,
+    "h": 138
+   },
+   "pad": 2
+  }
+ ]
+}

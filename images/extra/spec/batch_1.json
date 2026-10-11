@@ -1,0 +1,433 @@
+{
+ "ui_atlases_separate_assets_ui_atlases_gacha_gacha__sactx-0-2048x2048-DXT5_BC3-Gacha-30056a99": [
+  {
+   "ja": "erase:アクションゲームが苦手な人にもオススメ！",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 98,
+    "y": 216,
+    "w": 892,
+    "h": 84
+   }
+  },
+  {
+   "ja": "erase:扱いやすく強力なアタッカー冒険者6キャラ！",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 0,
+    "y": 288,
+    "w": 1057,
+    "h": 97
+   }
+  },
+  {
+   "ja": "アクションゲームが苦手な人にもオススメ！",
+   "en": "Perfect for action-game beginners!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 99,
+    "y": 229,
+    "w": 900,
+    "h": 64
+   }
+  },
+  {
+   "ja": "扱いやすく強力なアタッカー冒険者6キャラ！",
+   "en": "6 easy, powerful *Attacker Adventurers*!",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 38,
+    "y": 305,
+    "w": 1010,
+    "h": 64
+   }
+  },
+  {
+   "ja": "何度でも",
+   "en": "Unlimited",
+   "style": "ui",
+   "color": [
+    236,
+    100,
+    84
+   ],
+   "size": 34,
+   "pad": 1,
+   "box": {
+    "x": 1582,
+    "y": 1869,
+    "w": 156,
+    "h": 41
+   }
+  },
+  {
+   "ja": "引き直し",
+   "en": "Redraws",
+   "style": "ui",
+   "color": [
+    245,
+    70,
+    10
+   ],
+   "size": 36,
+   "pad": 1,
+   "box": {
+    "x": 1582,
+    "y": 1909,
+    "w": 156,
+    "h": 42
+   }
+  },
+  {
+   "ja": "できる！",
+   "en": "allowed!",
+   "style": "ui",
+   "color": [
+    40,
+    30,
+    30
+   ],
+   "size": 28,
+   "pad": 1,
+   "dx": -6,
+   "box": {
+    "x": 1608,
+    "y": 1953,
+    "w": 104,
+    "h": 34
+   }
+  }
+ ],
+ "ui_textures_gacha_assets_all__dma_gacha_logo_00001": [
+  {
+   "ja": "erase:レギュラー",
+   "en": "",
+   "style": "plate",
+   "pad": 4,
+   "box": {
+    "x": 72,
+    "y": 38,
+    "w": 330,
+    "h": 90
+   }
+  },
+  {
+   "ja": "erase:ガチャ",
+   "en": "",
+   "style": "plate",
+   "pad": 4,
+   "box": {
+    "x": 106,
+    "y": 118,
+    "w": 256,
+    "h": 112
+   }
+  },
+  {
+   "ja": "レギュラー",
+   "en": "*Regular*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 101,
+    "y": 38,
+    "w": 330,
+    "h": 88
+   }
+  },
+  {
+   "ja": "ガチャ",
+   "en": "*Gacha*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 100,
+    "y": 118,
+    "w": 300,
+    "h": 108
+   }
+  }
+ ],
+ "ui_textures_gacha_assets_all__img_logo_tutorial01": [
+  {
+   "ja": "erase:冒険の始まりガチャ (whole logo incl. glow and sparkles)",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 840,
+    "h": 372
+   }
+  },
+  {
+   "ja": "冒険の始まり",
+   "en": "*Adventure Begins*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 46,
+    "y": 81,
+    "w": 760,
+    "h": 105
+   }
+  },
+  {
+   "ja": "ガチャ",
+   "en": "*Gacha*",
+   "style": "headline",
+   "erase": "none",
+   "box": {
+    "x": 246,
+    "y": 162,
+    "w": 400,
+    "h": 135
+   }
+  }
+ ],
+ "ui_atlases_loginbonus_assets_all__logo_800321": [
+  {
+   "ja": "erase:アストレア・レコード",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 78,
+    "y": 116,
+    "w": 660,
+    "h": 86
+   }
+  },
+  {
+   "ja": "erase:ログインボーナス",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 165,
+    "y": 272,
+    "w": 503,
+    "h": 80
+   }
+  },
+  {
+   "ja": "アストレア・レコード",
+   "en": "Astraea Record",
+   "style": "plate",
+   "erase": "none",
+   "max_right": 740,
+   "box": {
+    "x": 78,
+    "y": 117,
+    "w": 660,
+    "h": 95
+   }
+  },
+  {
+   "ja": "ログインボーナス",
+   "en": "Login Bonus",
+   "style": "plate",
+   "erase": "none",
+   "box": {
+    "x": 172,
+    "y": 280,
+    "w": 483,
+    "h": 66
+   }
+  }
+ ],
+ "ui_atlases_loginbonus_assets_all__logo_800331": [
+  {
+   "ja": "erase:イレギュラー・レコード",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 40,
+    "y": 118,
+    "w": 745,
+    "h": 94
+   }
+  },
+  {
+   "ja": "erase:イ tail",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 92,
+    "y": 210,
+    "w": 36,
+    "h": 30
+   }
+  },
+  {
+   "ja": "erase:ギュラー tails",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 222,
+    "y": 210,
+    "w": 136,
+    "h": 22
+   }
+  },
+  {
+   "ja": "erase:レ tail",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 476,
+    "y": 210,
+    "w": 39,
+    "h": 22
+   }
+  },
+  {
+   "ja": "erase:コ tail",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 585,
+    "y": 208,
+    "w": 40,
+    "h": 12
+   }
+  },
+  {
+   "ja": "erase:ログインボーナス",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 160,
+    "y": 272,
+    "w": 512,
+    "h": 80
+   }
+  },
+  {
+   "ja": "イレギュラー・レコード",
+   "en": "Irregular Record",
+   "style": "plate",
+   "erase": "none",
+   "max_right": 780,
+   "box": {
+    "x": 45,
+    "y": 126,
+    "w": 735,
+    "h": 90
+   }
+  },
+  {
+   "ja": "ログインボーナス",
+   "en": "Login Bonus",
+   "style": "plate",
+   "erase": "none",
+   "box": {
+    "x": 172,
+    "y": 280,
+    "w": 483,
+    "h": 66
+   }
+  }
+ ],
+ "ui_atlases_loginbonus_assets_all__logo_jesterCountdown01": [
+  {
+   "ja": "erase:ジェスター",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 575,
+    "y": 30,
+    "w": 200,
+    "h": 55
+   }
+  },
+  {
+   "ja": "erase:時を渡る道化師",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 35,
+    "y": 40,
+    "w": 740,
+    "h": 153
+   }
+  },
+  {
+   "ja": "erase:gem pendant tip",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 525,
+    "y": 186,
+    "w": 67,
+    "h": 13
+   }
+  },
+  {
+   "ja": "erase:カウントダウンログインボーナス",
+   "en": "",
+   "style": "plate",
+   "pad": 0,
+   "box": {
+    "x": 0,
+    "y": 248,
+    "w": 832,
+    "h": 92
+   }
+  },
+  {
+   "ja": "時を渡る",
+   "en": "The Time-Crossing",
+   "style": "plate",
+   "erase": "none",
+   "box": {
+    "x": 140,
+    "y": 42,
+    "w": 530,
+    "h": 52
+   }
+  },
+  {
+   "ja": "道化師",
+   "en": "Trickster",
+   "style": "plate",
+   "erase": "none",
+   "max_right": 770,
+   "box": {
+    "x": 140,
+    "y": 78,
+    "w": 530,
+    "h": 118
+   }
+  },
+  {
+   "ja": "カウントダウンログインボーナス",
+   "en": "Countdown Login Bonus",
+   "style": "plate",
+   "erase": "none",
+   "max_right": 815,
+   "box": {
+    "x": 20,
+    "y": 257,
+    "w": 790,
+    "h": 71
+   }
+  }
+ ]
+}

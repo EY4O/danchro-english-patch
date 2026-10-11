@@ -1,0 +1,414 @@
+{
+ "ui_assets_all__dma_homebanner_00304": [
+  {
+   "ja": "erase-elem",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 102,
+    "y": 61,
+    "w": 150,
+    "h": 57
+   },
+   "pad": 2
+  },
+  {
+   "ja": "draw-elem",
+   "en": "Water",
+   "style": "plate",
+   "box": {
+    "x": 101,
+    "y": 58,
+    "w": 152,
+    "h": 66
+   },
+   "erase": "none"
+  },
+  {
+   "ja": "erase-gacha",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 114,
+    "y": 114,
+    "w": 128,
+    "h": 34
+   },
+   "pad": 3,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "draw-gacha",
+   "en": "Limited Gacha",
+   "style": "plate",
+   "box": {
+    "x": 98,
+    "y": 114,
+    "w": 160,
+    "h": 32
+   },
+   "erase": "none",
+   "max_right": 258
+  }
+ ],
+ "ui_assets_all__dma_homebanner_00305": [
+  {
+   "ja": "erase-elem",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 102,
+    "y": 61,
+    "w": 150,
+    "h": 57
+   },
+   "pad": 2
+  },
+  {
+   "ja": "draw-elem",
+   "en": "Fire",
+   "style": "plate",
+   "box": {
+    "x": 101,
+    "y": 58,
+    "w": 152,
+    "h": 66
+   },
+   "erase": "none"
+  },
+  {
+   "ja": "erase-gacha",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 114,
+    "y": 114,
+    "w": 128,
+    "h": 34
+   },
+   "pad": 3,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "draw-gacha",
+   "en": "Limited Gacha",
+   "style": "plate",
+   "box": {
+    "x": 98,
+    "y": 114,
+    "w": 160,
+    "h": 32
+   },
+   "erase": "none",
+   "max_right": 258
+  }
+ ],
+ "ui_assets_all__dma_homebanner_90001": [
+  {
+   "ja": "ダンジョンに出会いを",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "バトル・クロニクル",
+   "en": "",
+   "style": "keep"
+  },
+  {
+   "ja": "erase-l1",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 14,
+    "y": 92,
+    "w": 198,
+    "h": 28
+   },
+   "pad": 3
+  },
+  {
+   "ja": "draw-l1",
+   "en": "2-Month Anniversary",
+   "style": "plate",
+   "box": {
+    "x": 10,
+    "y": 90,
+    "w": 206,
+    "h": 30
+   },
+   "erase": "none",
+   "max_right": 216
+  },
+  {
+   "ja": "erase-l2",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 36,
+    "y": 121,
+    "w": 152,
+    "h": 24
+   },
+   "pad": 3
+  },
+  {
+   "ja": "draw-l2",
+   "en": "Campaign Now On!",
+   "style": "plate",
+   "box": {
+    "x": 22,
+    "y": 120,
+    "w": 180,
+    "h": 25
+   },
+   "erase": "none",
+   "max_right": 202
+  }
+ ],
+ "ui_assets_all__dma_homebanner_maze_00001": [
+  {
+   "ja": "erase-title",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 56,
+    "y": 28,
+    "w": 252,
+    "h": 66
+   },
+   "pad": 3
+  },
+  {
+   "ja": "draw-t1",
+   "en": "Uncharted",
+   "style": "plate",
+   "box": {
+    "x": 60,
+    "y": 34,
+    "w": 240,
+    "h": 34
+   },
+   "erase": "none",
+   "max_right": 300
+  },
+  {
+   "ja": "draw-t2",
+   "en": "Battlefield",
+   "style": "plate",
+   "box": {
+    "x": 60,
+    "y": 64,
+    "w": 240,
+    "h": 34
+   },
+   "erase": "none",
+   "max_right": 300
+  },
+  {
+   "ja": "erase-now",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 134,
+    "y": 104,
+    "w": 96,
+    "h": 30
+   },
+   "pad": 3
+  },
+  {
+   "ja": "draw-now",
+   "en": "Now On!",
+   "style": "plate",
+   "box": {
+    "x": 112,
+    "y": 102,
+    "w": 140,
+    "h": 34
+   },
+   "erase": "none",
+   "max_right": 252
+  }
+ ],
+ "ui_assets_all__dma_homebanner_raid_00002": [
+  {
+   "ja": "erase-ex",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 180,
+    "y": 21,
+    "w": 88,
+    "h": 17
+   },
+   "pad": 2
+  },
+  {
+   "ja": "draw-ex",
+   "en": "Extreme",
+   "style": "plate",
+   "box": {
+    "x": 164,
+    "y": 19,
+    "w": 120,
+    "h": 21
+   },
+   "erase": "none",
+   "max_right": 284
+  },
+  {
+   "ja": "erase-co",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 129,
+    "y": 39,
+    "w": 182,
+    "h": 43
+   },
+   "pad": 2
+  },
+  {
+   "ja": "erase-co-band",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 127,
+    "y": 84,
+    "w": 186,
+    "h": 7
+   },
+   "pad": 0,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "draw-co1",
+   "en": "Co-op",
+   "style": "plate",
+   "box": {
+    "x": 130,
+    "y": 38,
+    "w": 180,
+    "h": 22
+   },
+   "erase": "none",
+   "max_right": 310
+  },
+  {
+   "ja": "draw-co2",
+   "en": "Showdown",
+   "style": "plate",
+   "box": {
+    "x": 125,
+    "y": 56,
+    "w": 190,
+    "h": 36
+   },
+   "erase": "none",
+   "max_right": 315
+  },
+  {
+   "ja": "erase-mino",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 137,
+    "y": 95,
+    "w": 172,
+    "h": 24
+   },
+   "pad": 2
+  },
+  {
+   "ja": "draw-mino",
+   "en": "One-Horned Minotaur",
+   "style": "plate",
+   "box": {
+    "x": 139,
+    "y": 95,
+    "w": 168,
+    "h": 21
+   },
+   "erase": "none",
+   "max_right": 307
+  }
+ ],
+ "ui_assets_all__dma_homebanner_raid_50002": [
+  {
+   "ja": "erase-co",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 129,
+    "y": 40,
+    "w": 182,
+    "h": 43
+   },
+   "pad": 2
+  },
+  {
+   "ja": "erase-co-band",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 127,
+    "y": 85,
+    "w": 186,
+    "h": 7
+   },
+   "pad": 0,
+   "erase": "glyphs"
+  },
+  {
+   "ja": "draw-co1",
+   "en": "Co-op",
+   "style": "plate",
+   "box": {
+    "x": 130,
+    "y": 39,
+    "w": 180,
+    "h": 22
+   },
+   "erase": "none",
+   "max_right": 310
+  },
+  {
+   "ja": "draw-co2",
+   "en": "Showdown",
+   "style": "plate",
+   "box": {
+    "x": 125,
+    "y": 57,
+    "w": 190,
+    "h": 36
+   },
+   "erase": "none",
+   "max_right": 315
+  },
+  {
+   "ja": "erase-mino",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 137,
+    "y": 97,
+    "w": 172,
+    "h": 24
+   },
+   "pad": 2
+  },
+  {
+   "ja": "draw-mino",
+   "en": "One-Horned Minotaur",
+   "style": "plate",
+   "box": {
+    "x": 139,
+    "y": 97,
+    "w": 168,
+    "h": 21
+   },
+   "erase": "none",
+   "max_right": 307
+  }
+ ]
+}

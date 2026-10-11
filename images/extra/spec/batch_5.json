@@ -1,0 +1,883 @@
+{
+ "ui_textures_loading_assets_all__img_tips_024": [
+  {
+   "ja": "CPランク 1",
+   "en": "CP Rank 1",
+   "style": "ui",
+   "color": [
+    235,
+    230,
+    220
+   ],
+   "size": 7,
+   "pad": 1,
+   "box": {
+    "x": 66,
+    "y": 70,
+    "w": 27,
+    "h": 7
+   }
+  },
+  {
+   "ja": "報酬",
+   "en": "Rewards",
+   "style": "ui",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "size": 6,
+   "pad": 1,
+   "dx": -4,
+   "box": {
+    "x": 146,
+    "y": 74,
+    "w": 16,
+    "h": 8
+   }
+  },
+  {
+   "ja": "※ 15",
+   "en": "15 Left",
+   "style": "ui",
+   "color": [
+    235,
+    230,
+    220
+   ],
+   "size": 6,
+   "pad": 1,
+   "dx": -6,
+   "box": {
+    "x": 114,
+    "y": 81,
+    "w": 19,
+    "h": 7
+   }
+  },
+  {
+   "ja": "【本売の少年】",
+   "en": "[Little Rookie]",
+   "style": "ui",
+   "color": [
+    235,
+    230,
+    220
+   ],
+   "size": 8,
+   "pad": 1,
+   "erase": "box",
+   "box": {
+    "x": 61,
+    "y": 202,
+    "w": 50,
+    "h": 8
+   }
+  },
+  {
+   "ja": "ベル・クラネル",
+   "en": "Bell Cranel",
+   "style": "ui",
+   "color": [
+    248,
+    245,
+    240
+   ],
+   "size": 12,
+   "pad": 1,
+   "box": {
+    "x": 61,
+    "y": 213,
+    "w": 79,
+    "h": 11
+   }
+  },
+  {
+   "ja": "paint:voice:0",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 328,
+    "y": 161,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:1",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 336,
+    "y": 161,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:2",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 328,
+    "y": 163,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:3",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 336,
+    "y": 163,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:4",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 328,
+    "y": 165,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:5",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 336,
+    "y": 165,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:6",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 328,
+    "y": 167,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:7",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 336,
+    "y": 167,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:8",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 328,
+    "y": 169,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:voice:9",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    250,
+    250,
+    250
+   ],
+   "box": {
+    "x": 336,
+    "y": 169,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "ボイス",
+   "en": "Voice",
+   "style": "ui",
+   "size": 9,
+   "pad": 1,
+   "color": [
+    70,
+    62,
+    58
+   ],
+   "box": {
+    "x": 329,
+    "y": 175,
+    "w": 26,
+    "h": 8
+   }
+  },
+  {
+   "ja": "paint:episode:0",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 366,
+    "y": 189,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:1",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 383,
+    "y": 189,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:2",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 366,
+    "y": 191,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:3",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 383,
+    "y": 191,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:4",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 366,
+    "y": 193,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:5",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 383,
+    "y": 193,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:6",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 366,
+    "y": 195,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:7",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 383,
+    "y": 195,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:8",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 366,
+    "y": 196,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:episode:9",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    246,
+    248,
+    246
+   ],
+   "box": {
+    "x": 383,
+    "y": 196,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "エピソード",
+   "en": "Episodes",
+   "style": "ui",
+   "size": 8,
+   "pad": 1,
+   "dx": -1,
+   "color": [
+    70,
+    62,
+    58
+   ],
+   "box": {
+    "x": 367,
+    "y": 203,
+    "w": 35,
+    "h": 7
+   }
+  },
+  {
+   "ja": "paint:gift:0",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 415,
+    "y": 161,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:1",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 426,
+    "y": 161,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:2",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 415,
+    "y": 163,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:3",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 426,
+    "y": 163,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:4",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 415,
+    "y": 165,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:5",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 426,
+    "y": 165,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:6",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 415,
+    "y": 167,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:7",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 426,
+    "y": 167,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:8",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 415,
+    "y": 169,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:gift:9",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    240,
+    240,
+    238
+   ],
+   "box": {
+    "x": 426,
+    "y": 169,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "贈り物",
+   "en": "Gifts",
+   "style": "ui",
+   "size": 9,
+   "pad": 1,
+   "dx": 3,
+   "color": [
+    70,
+    62,
+    58
+   ],
+   "box": {
+    "x": 416,
+    "y": 175,
+    "w": 29,
+    "h": 8
+   }
+  },
+  {
+   "ja": "paint:info:0",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    253,
+    253,
+    253
+   ],
+   "box": {
+    "x": 437,
+    "y": 9,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:info:1",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    253,
+    253,
+    253
+   ],
+   "box": {
+    "x": 437,
+    "y": 11,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:info:2",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    253,
+    253,
+    253
+   ],
+   "box": {
+    "x": 437,
+    "y": 13,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:info:3",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    253,
+    253,
+    253
+   ],
+   "box": {
+    "x": 437,
+    "y": 15,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "paint:info:4",
+   "en": "—",
+   "style": "ui",
+   "size": 20,
+   "erase": "none",
+   "color": [
+    253,
+    253,
+    253
+   ],
+   "box": {
+    "x": 437,
+    "y": 17,
+    "w": 20,
+    "h": 22
+   }
+  },
+  {
+   "ja": "詳細",
+   "en": "Info",
+   "style": "ui",
+   "size": 9,
+   "pad": 1,
+   "dx": 1,
+   "color": [
+    70,
+    62,
+    58
+   ],
+   "box": {
+    "x": 439,
+    "y": 23,
+    "w": 17,
+    "h": 8
+   }
+  }
+ ],
+ "ui_textures_loading_assets_all__img_tips_027": [
+  {
+   "ja": "熟練度上昇",
+   "en": "",
+   "style": "plate",
+   "erase": "box",
+   "pad": 1,
+   "box": {
+    "x": 176,
+    "y": 162,
+    "w": 163,
+    "h": 31
+   }
+  },
+  {
+   "ja": "draw:熟練度上昇",
+   "en": "MASTERY UP",
+   "style": "plate",
+   "erase": "none",
+   "box": {
+    "x": 118,
+    "y": 154,
+    "w": 280,
+    "h": 43
+   }
+  }
+ ],
+ "ui_textures_loading_assets_all__img_tips_028": [
+  {
+   "ja": "限界突破--",
+   "en": "",
+   "style": "plate",
+   "erase": "box",
+   "pad": 1,
+   "box": {
+    "x": 193,
+    "y": 162,
+    "w": 126,
+    "h": 31
+   }
+  },
+  {
+   "ja": "draw:限界突破--",
+   "en": "LIMIT BREAK",
+   "style": "plate",
+   "erase": "none",
+   "box": {
+    "x": 116,
+    "y": 154,
+    "w": 280,
+    "h": 43
+   }
+  }
+ ],
+ "ui_textures_loading_assets_all__img_tips_029": [
+  {
+   "ja": "覚醒",
+   "en": "",
+   "style": "plate",
+   "erase": "box",
+   "pad": 1,
+   "box": {
+    "x": 224,
+    "y": 162,
+    "w": 66,
+    "h": 31
+   }
+  },
+  {
+   "ja": "draw:覚醒",
+   "en": "AWAKENING",
+   "style": "plate",
+   "erase": "none",
+   "box": {
+    "x": 117,
+    "y": 154,
+    "w": 280,
+    "h": 43
+   }
+  }
+ ]
+}

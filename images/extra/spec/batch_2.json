@@ -1,0 +1,284 @@
+{
+ "ui_assets_all__dma_homebanner_00001": [
+  {
+   "ja": "レギュラー",
+   "en": "Regular",
+   "style": "headline",
+   "box": {
+    "x": 34,
+    "y": 32,
+    "w": 164,
+    "h": 44
+   }
+  },
+  {
+   "ja": "ガチャ",
+   "en": "*Gacha*",
+   "style": "headline",
+   "box": {
+    "x": 44,
+    "y": 72,
+    "w": 138,
+    "h": 60
+   }
+  }
+ ],
+ "ui_assets_all__dma_homebanner_00273": [
+  {
+   "ja": "erase pickup",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 92,
+    "y": 68,
+    "w": 181,
+    "h": 36
+   },
+   "pad": 1
+  },
+  {
+   "ja": "erase gacha",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 132,
+    "y": 102,
+    "w": 89,
+    "h": 48
+   },
+   "pad": 2
+  },
+  {
+   "ja": "ピックアップ",
+   "en": "*Pick-Up*",
+   "style": "headline",
+   "box": {
+    "x": 112,
+    "y": 64,
+    "w": 138,
+    "h": 44
+   },
+   "erase": "none"
+  },
+  {
+   "ja": "ガチャ",
+   "en": "Gacha",
+   "style": "headline",
+   "box": {
+    "x": 123,
+    "y": 106,
+    "w": 108,
+    "h": 42
+   },
+   "erase": "none"
+  }
+ ],
+ "ui_assets_all__dma_homebanner_00300": [
+  {
+   "ja": "erase adv",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 90,
+    "y": 32,
+    "w": 179,
+    "h": 72
+   },
+   "pad": 2
+  },
+  {
+   "ja": "erase gacha",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 118,
+    "y": 104,
+    "w": 116,
+    "h": 42
+   },
+   "pad": 2
+  },
+  {
+   "ja": "冒険譚",
+   "en": "Adventure",
+   "style": "plate",
+   "box": {
+    "x": 90,
+    "y": 42,
+    "w": 178,
+    "h": 62
+   },
+   "max_right": 268,
+   "erase": "none"
+  },
+  {
+   "ja": "ガチャ",
+   "en": "Tale Gacha",
+   "style": "plate",
+   "box": {
+    "x": 92,
+    "y": 100,
+    "w": 172,
+    "h": 48
+   },
+   "max_right": 264,
+   "erase": "none"
+  }
+ ],
+ "ui_assets_all__dma_homebanner_00301": [
+  {
+   "ja": "erase el",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 109,
+    "y": 60,
+    "w": 140,
+    "h": 52
+   },
+   "pad": 2
+  },
+  {
+   "ja": "erase ltd",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 115,
+    "y": 113,
+    "w": 125,
+    "h": 26
+   },
+   "pad": 2
+  },
+  {
+   "ja": "雷属性",
+   "en": "Thunder",
+   "style": "plate",
+   "box": {
+    "x": 104,
+    "y": 61,
+    "w": 150,
+    "h": 50
+   },
+   "max_right": 254,
+   "erase": "none"
+  },
+  {
+   "ja": "限定ガチャ",
+   "en": "Limited Gacha",
+   "style": "plate",
+   "box": {
+    "x": 106,
+    "y": 113,
+    "w": 146,
+    "h": 27
+   },
+   "max_right": 252,
+   "erase": "none"
+  }
+ ],
+ "ui_assets_all__dma_homebanner_00302": [
+  {
+   "ja": "erase el",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 109,
+    "y": 61,
+    "w": 140,
+    "h": 52
+   },
+   "pad": 2
+  },
+  {
+   "ja": "erase ltd",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 115,
+    "y": 114,
+    "w": 125,
+    "h": 26
+   },
+   "pad": 2
+  },
+  {
+   "ja": "地属性",
+   "en": "Earth",
+   "style": "plate",
+   "box": {
+    "x": 104,
+    "y": 62,
+    "w": 150,
+    "h": 50
+   },
+   "max_right": 254,
+   "erase": "none"
+  },
+  {
+   "ja": "限定ガチャ",
+   "en": "Limited Gacha",
+   "style": "plate",
+   "box": {
+    "x": 106,
+    "y": 114,
+    "w": 146,
+    "h": 27
+   },
+   "max_right": 252,
+   "erase": "none"
+  }
+ ],
+ "ui_assets_all__dma_homebanner_00303": [
+  {
+   "ja": "erase el",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 109,
+    "y": 61,
+    "w": 140,
+    "h": 52
+   },
+   "pad": 2
+  },
+  {
+   "ja": "erase ltd",
+   "en": "",
+   "style": "plate",
+   "box": {
+    "x": 115,
+    "y": 114,
+    "w": 125,
+    "h": 26
+   },
+   "pad": 2
+  },
+  {
+   "ja": "風属性",
+   "en": "Wind",
+   "style": "plate",
+   "box": {
+    "x": 104,
+    "y": 62,
+    "w": 150,
+    "h": 50
+   },
+   "max_right": 254,
+   "erase": "none"
+  },
+  {
+   "ja": "限定ガチャ",
+   "en": "Limited Gacha",
+   "style": "plate",
+   "box": {
+    "x": 106,
+    "y": 114,
+    "w": 146,
+    "h": 27
+   },
+   "max_right": 252,
+   "erase": "none"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 """Build the English + rebalance + smarter-auto-battle patch and optionally install it into the game.
 
 usage:
-  build_patch.py build [--no-gameplay] [--no-ai] [--no-images] [--no-quality] [--no-audio] [--pilot-only]
+  build_patch.py build [--no-gameplay] [--no-ai] [--no-images] [--no-quality] [--no-audio] [--no-ui-text] [--pilot-only]
                             -> writes every patched file to out/ (flat) + out/files.txt (name -> game path)
   build_patch.py install    -> backs up originals to original/ (once), copies out/ into the game
   build_patch.py uninstall  -> restores the originals
@@ -23,13 +23,22 @@ LIVE_CATALOG = f"{AA}/catalog.json"
 
 
 def _bundle(prefix):
-    return os.path.basename(glob.glob(f"{AA}/StandaloneWindows64/{prefix}_*.bundle")[0])
+    """Exact bundle file for a name prefix (prefix + content hash); some prefixes are prefixes of others."""
+    pattern = re.compile(re.escape(prefix) + r"_[0-9a-f]{32}\.bundle$")
+    return next(os.path.basename(p) for p in glob.glob(f"{AA}/StandaloneWindows64/{prefix}_*.bundle")
+                if pattern.search(os.path.basename(p)))
 
 
 MASTER = _bundle("master_assets_all")
 BEHAVIOR = _bundle("battle_behaviortree_assets_all")
 TUTORIAL_IMAGES = _bundle("ui_textures_tutorial_assets_all")
-BUNDLES = (MASTER, BEHAVIOR, TUTORIAL_IMAGES)
+# bundles whose screen layouts contain Japanese text (list written by tools/ui_text.py scan)
+UI_TEXT_BUNDLES = tuple(_bundle(p) for p in json.load(open(f"{PATCH}/translations/ui_text_bundles.json")))
+HONOR_IMAGES = _bundle("honor_image_assets_all")
+# bundles holding the other translated images (images/extra/en/<prefix>__<texture>.png)
+EXTRA_IMAGE_PREFIXES = tuple(json.load(open(f"{PATCH}/images/extra/bundles.json")))
+EXTRA_IMAGE_BUNDLES = tuple(_bundle(p) for p in EXTRA_IMAGE_PREFIXES)
+BUNDLES = tuple(dict.fromkeys((MASTER, BEHAVIOR, TUTORIAL_IMAGES, HONOR_IMAGES, *UI_TEXT_BUNDLES, *EXTRA_IMAGE_BUNDLES)))
 QUALITY = "globalgamemanagers"
 AUDIO = "level0"
 # every file the patch may replace: flat name -> path relative to the game folder
@@ -66,6 +75,10 @@ def collect_translations(pilot_only=False):
                     en[k] = out[i]
     if missing:
         print(f"note: {len(missing)} batches not translated yet: {', '.join(missing)}")
+    # hand-tuned replacements (e.g. shorter labels where English overflows); applied last
+    overrides = f"{PATCH}/translations/overrides.json"
+    if os.path.exists(overrides):
+        en.update(json.load(open(overrides)))
     return en
 
 
@@ -117,7 +130,7 @@ def build_master(gameplay, pilot_only):
     assert MasterData.from_bundle(f"{OUT}/{MASTER}").blob == blob
 
 
-def build(gameplay=True, smarter_ai=True, pilot_only=False, images=True, quality=True, audio=True):
+def build(gameplay=True, smarter_ai=True, pilot_only=False, images=True, quality=True, audio=True, ui_text=True):
     backup_originals()
     shutil.rmtree(OUT, ignore_errors=True)
     os.makedirs(OUT)
@@ -131,9 +144,21 @@ def build(gameplay=True, smarter_ai=True, pilot_only=False, images=True, quality
             open(f"{OUT}/{BEHAVIOR}", "wb").write(data)
     if images:
         import images_bundle
-        data = images_bundle.apply(f"{ORIG}/{TUTORIAL_IMAGES}")
-        if data:
-            open(f"{OUT}/{TUTORIAL_IMAGES}", "wb").write(data)
+        jobs = [(TUTORIAL_IMAGES, f"{PATCH}/images/en", None), (HONOR_IMAGES, f"{PATCH}/images/honor/en", None)]
+        jobs += [(b, f"{PATCH}/images/extra/en", p) for b, p in zip(EXTRA_IMAGE_BUNDLES, EXTRA_IMAGE_PREFIXES)]
+        for bundle, en_dir, prefix in jobs:  # chained on out/ like the other steps
+            data = images_bundle.apply(f"{OUT}/{bundle}", en_dir=en_dir, prefix=prefix)
+            if data:
+                open(f"{OUT}/{bundle}", "wb").write(data)
+    ui_en_path = f"{PATCH}/translations/ui_text.json"
+    if ui_text and os.path.exists(ui_en_path):
+        import ui_text as ut
+        ui_en = json.load(open(ui_en_path))
+        for b in UI_TEXT_BUNDLES:  # chained on out/ so other steps may touch the same bundle
+            data = ut.apply(f"{OUT}/{b}", ui_en, log=lambda m: None)
+            if data:
+                open(f"{OUT}/{b}", "wb").write(data)
+        print(f"ui text: layout text replaced in {len(UI_TEXT_BUNDLES)} bundles")
     modified = [b for b in BUNDLES if open(f"{OUT}/{b}", "rb").read() != open(f"{ORIG}/{b}", "rb").read()]
     for b in BUNDLES:  # unmodified bundles don't need shipping
         if b not in modified:
@@ -175,8 +200,8 @@ def uninstall():
 
 
 VARIANTS = {  # name -> build() options
-    "full": dict(gameplay=True, smarter_ai=True, images=True, quality=True, audio=True),
-    "translation": dict(gameplay=False, smarter_ai=False, images=True, quality=False, audio=True),
+    "full": dict(gameplay=True, smarter_ai=True, images=True, quality=True, audio=True, ui_text=True),
+    "translation": dict(gameplay=False, smarter_ai=False, images=True, quality=False, audio=True, ui_text=True),
 }
 
 
@@ -224,7 +249,8 @@ if __name__ == "__main__":
     if cmd == "build":
         build(gameplay="--no-gameplay" not in sys.argv, smarter_ai="--no-ai" not in sys.argv,
               pilot_only="--pilot-only" in sys.argv, images="--no-images" not in sys.argv,
-              quality="--no-quality" not in sys.argv, audio="--no-audio" not in sys.argv)
+              quality="--no-quality" not in sys.argv, audio="--no-audio" not in sys.argv,
+              ui_text="--no-ui-text" not in sys.argv)
     elif cmd == "install":
         install()
     elif cmd == "uninstall":

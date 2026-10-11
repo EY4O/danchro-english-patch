@@ -19,3 +19,7 @@ tools/ocr/ocr
 __pycache__/
 *.pyc
 .DS_Store
+images/honor/ja/
+images/honor/en/
+images/extra/ja/
+images/extra/en/

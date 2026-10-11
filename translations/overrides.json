@@ -1,0 +1,8 @@
+{
+ "status_str": "STR",
+ "status_def": "END",
+ "status_dex": "DEX",
+ "status_mp": "MAG",
+ "ui_character_detail_limitbreak": "Lim. Break",
+ "ui_character_detail_awakening": "Awakening"
+}

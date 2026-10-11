@@ -22,7 +22,7 @@ An unofficial fan patch for the **offline edition** of *DanMachi Battle Chronicl
 ## ✨ Key Features
 
 - 🌐 **Full English translation**: about 56,000 strings of story, menus, skills, items and missions, with the names and terms of the Yen Press English release.
-- 🖼️ **Translated tutorial images**: the Japanese text drawn into all 57 tutorial images is redrawn in English, in the game's own style.
+- 🖼️ **Translated images**: 405 images with Japanese drawn in, from tutorials and gacha banners to the "Pull!" prompt and 305 honor plates, redrawn in English in the game's style.
 - 🎟️ **Fairer gacha**: every pull earns 5 exchange tokens, so each ten-pull buys any character you choose, and the top-rarity rate is 7.5% instead of 2.5%.
 - 💎 **Crystals from the story**: first clears pay 150 / 300 / 500 crystals (normal / hard / very hard), about 26 ten-pulls across the story instead of 5.
 - ⏩ **Less grind**: double EXP, gold and upgrade materials from quests.
@@ -87,11 +87,13 @@ Use your display's pixel size: the game's own **Screen Size** setting stops at 1
 
 ## 🗺️ Roadmap
 
-Some Japanese is still left, planned for v1.1:
+What's still Japanese, mostly on purpose:
 
-- A few labels built into screen layouts rather than the text database, such as the quest panel's First Clear Rewards / Monsters / Drop Rewards headers.
-- Japanese drawn into some images: gacha banner art, the "Pull!" prompt in the gacha animation, the "Strong enemy appears!" battle banner, a few loading screens.
-- Stat labels that wrap mid-word on the character screen (Strength, Endurance, Dexterity).
+- Official series logos (*DanMachi*, *Familia Myth*, *Sword Oratoria*) and stylized event title logos, kept as artwork.
+- The chrome 共闘決戦 ("Co-op Showdown") lettering on raid plates; the boss names under it are translated.
+- Tiny labels inside loading-tip screenshots, too small to redraw legibly.
+
+Spotted something else? Please open an issue with a screenshot.
 
 ---
 
@@ -102,17 +104,21 @@ Some Japanese is still left, planned for v1.1:
 
 All of the game's text lives in one local MasterMemory database (MessagePack with per-table LZ4) inside the `master_assets_all` bundle. The patch rewrites its dictionary table, about 58,700 keys, with English and rebuilds the bundle.
 
+About 760 more strings are typed directly into screen layouts, in 3,876 text components across 43 bundles. Most are swapped for dictionary text at runtime, but some show as they are, such as the quest panel's headers. The patch writes English into all of them too. A few labels are shortened to fit boxes sized for Japanese, such as STR / END / DEX / MAG for the stats.
+
 The text was translated with AI (Claude) in batches: names and terms first, then menus and descriptions checked against those names, and story scenes whole, with their speakers. Every batch is checked automatically: all entries present, `{placeholders}` and color tags intact, no Japanese left. Names that different batches rendered differently are then unified. Story chapter 1-1 and the character names were checked by hand.
 
 It reads naturally, but it is not a professional human translation. Corrections are welcome (see Contributing).
 </details>
 
 <details>
-<summary><b>🖼️ Tutorial images</b></summary>
+<summary><b>🖼️ Images</b></summary>
 
-Apple's Vision OCR finds every Japanese text block in the tutorial images. The Japanese is erased: whole boxes for headlines, only the letter pixels where text sits on artwork. English is then drawn in the game's style, white with orange emphasis, a dark outline and a shadow. Each image was checked against the original by eye.
+Apple's Vision OCR scanned all 14,305 textures in the game for Japanese text. The Japanese is erased: whole boxes for headlines, only the letter pixels where text sits on artwork. English is then drawn in the game's style, such as white with orange emphasis, a dark outline and a shadow for headlines, or the plate's own colours for name plates. On shared sprite sheets only the text's own pixels change. Every tutorial and UI image was checked against the original by eye.
 
-A few stylized logos stay Japanese where erasing them would damage the art.
+The 305 honor plates are generated: each plate's English title already exists in the translation, so a script redraws them, and a sample was reviewed. The Awakening / Mastery Up level-up effects are shader masks and glow maps, rebuilt with the same encoding as the originals.
+
+Logos and art that would be damaged by erasing stay Japanese.
 </details>
 
 <details>
