@@ -1,87 +1,178 @@
-# DanChro English Patch
+<p align="center"><img src="docs/images/icon.png" width="112" alt="DanChro English Patch"></p>
 
-An unofficial English patch for the **offline edition** of *DanMachi Battle Chronicle* (ダンクロ), the version Aiming released after the online service ended on September 29, 2025. The offline edition runs entirely on your computer, but it is Japanese only.
+<h1 align="center">DanChro English Patch</h1>
 
-**Download the patch from [Releases](../../releases).** This repository holds the tools and the English text used to build it.
+<p align="center"><b>Play DanMachi Battle Chronicle's offline edition in English, with a gacha that respects your time.</b></p>
 
-## What it changes
+<p align="center">
+  <a href="https://github.com/EY4O/danchro-english-patch/blob/main/LICENSE"><img src="https://img.shields.io/github/license/EY4O/danchro-english-patch?color=blue" alt="License"></a>
+  <a href="https://github.com/EY4O/danchro-english-patch/commits/main"><img src="https://img.shields.io/github/last-commit/EY4O/danchro-english-patch?color=green&logo=github" alt="Last commit"></a>
+  <a href="https://github.com/EY4O/danchro-english-patch/releases/latest"><img src="https://img.shields.io/github/v/release/EY4O/danchro-english-patch" alt="Latest release"></a>
+  <a href="https://ko-fi.com/looneth"><img src="https://img.shields.io/badge/Ko--fi-Support-FF813F?logo=ko-fi&logoColor=white" alt="Support on Ko-fi"></a>
+</p>
 
-The installer offers two versions:
+An unofficial fan patch for the **offline edition** of *DanMachi Battle Chronicle* (ダンクロ), the version Aiming released after the online service ended on September 29, 2025. It translates the whole game into English, using the official Yen Press names and terms. You can also choose a rebalanced economy that suits a game with no more events or login bonuses. It works on Windows, and on Mac through Wine.
 
-| | Full | Translation only |
-|---|---|---|
-| All game text in English: about 56,000 strings of story, menus, skills, items and missions | ✓ | ✓ |
-| English text in the 57 tutorial images | ✓ | ✓ |
-| Sound fix for Wine (Mac/Linux) | ✓ | ✓ |
-| Fairer gacha: 5 exchange tokens per pull (a ten-pull earns any character of your choice); top-rarity rate 2.5% → 7.5% | ✓ | |
-| Story first clears pay 150 / 300 / 500 crystals (normal / hard / very hard), up from 30 / 100 / 0 | ✓ | |
-| Double EXP, gold and upgrade-material drops from quests | ✓ | |
-| Smarter auto-battle: healing skills and assists wait until someone is below 70% HP | ✓ | |
-| Models keep full detail further from the camera | ✓ | |
+![Home screen in English](docs/images/home.png)
 
-Names and terms follow the official Yen Press English release (Bell Cranel, Ais Wallenstein, Falna, Loki Familia…), see [glossary.md](glossary.md).
+> **⚠ You need the offline edition of the PC game** (October 2025 build). The patch contains no game and works on no other version; the installer checks the files before changing anything.
 
-**How the translation was made:** the text was translated with AI (Claude) against that glossary, checked automatically for broken formatting, and spot-checked against the Japanese in play. It reads naturally but it is not a professional human translation. Corrections are welcome, see [Contributing](#contributing).
+---
 
-## Install
+## ✨ Key Features
 
-1. You need the offline edition of the PC game (October 2025 build). The installer checks the files and won't touch any other version.
-2. Close the game. Put the unzipped `DanChro-English-Patch` folder inside the game folder, next to `danchro.exe`.
-3. Run `install-windows.bat` (Windows) or `install-mac.command` (macOS, right-click > Open the first time) and choose 1 (full) or 2 (translation only).
+- 🌐 **Full English translation**: about 56,000 strings of story, menus, skills, items and missions, with the names and terms of the Yen Press English release.
+- 🖼️ **Translated tutorial images**: the Japanese text drawn into all 57 tutorial images is redrawn in English, in the game's own style.
+- 🎟️ **Fairer gacha**: every pull earns 5 exchange tokens, so each ten-pull buys any character you choose, and the top-rarity rate is 7.5% instead of 2.5%.
+- 💎 **Crystals from the story**: first clears pay 150 / 300 / 500 crystals (normal / hard / very hard), about 26 ten-pulls across the story instead of 5.
+- ⏩ **Less grind**: double EXP, gold and upgrade materials from quests.
+- 🩹 **Smarter auto-battle**: healing skills and assists wait until someone drops below 70% HP instead of firing at full health.
+- 🔊 **Sound fix for Wine**: keeps audio from cutting out after a few seconds on Mac and Linux.
+- 🎚️ **Your choice**: install the full patch, or the translation alone with gameplay exactly as shipped. Switch any time, and uninstall cleanly.
 
-The original files are backed up inside the patch folder; `uninstall-…` restores them. Run the installer again to switch versions. Save data is never touched.
+## 📸 Screenshots
 
-### Playing on a Mac
+| | |
+|---|---|
+| ![Story](docs/images/story.png) **Story**: every scene in English, voices untouched | ![Battle](docs/images/battle.png) **Battle**: enemy names, objectives and HUD in English |
+| ![Results](docs/images/results.png) **Results**: rank, rewards and Battle Missions in English | ![Tutorial](docs/images/tutorial-before-after.png) **Tutorials**: the original image (left) and the patched one |
 
-The game is a Windows program. It runs well on Apple Silicon with:
+---
 
-1. Rosetta 2: `softwareupdate --install-rosetta --agree-to-license`
-2. [Gcenx's Wine Staging](https://github.com/Gcenx/macOS_Wine_builds) (11.18 tested)
-3. [DXVK-macOS](https://github.com/Gcenx/DXVK-macOS), the `-repack-builtin` package. Copy its `d3d11.dll` and `d3d10core.dll` over the ones in `Wine Staging.app/Contents/Resources/wine/lib/wine/x86_64-windows/` (and `i386-windows/`). Without this the game stops with "Failed to initialize graphics".
-4. Start it from the game folder: `"/path/to/Wine Staging.app/Contents/Resources/wine/bin/wine" danchro.exe -screen-fullscreen 1`
+## 📦 Installation
 
-The game's Screen Size option tops out at 1920×1080. For native resolution, add `-screen-width` and `-screen-height` with your display's pixel size.
+### Option 1: **Release installer** (Recommended)
 
-## Known issues
+1. Download `DanChro-English-Patch.zip` from the [latest release](https://github.com/EY4O/danchro-english-patch/releases/latest).
+2. Close the game. Unzip it and put the `DanChro-English-Patch` folder inside the game folder, next to `danchro.exe`.
+3. Run `install-windows.bat` (Windows) or `install-mac.command` (Mac: right-click → **Open** the first time).
+4. Choose **1** for the full patch or **2** for translation only.
 
-- A few stylized logos in tutorial images are still Japanese, and some glowing banners became plain text.
-- English runs longer than Japanese; if text overflows a button or box somewhere, please open an issue with a screenshot.
+Your original files are backed up in the patch folder. `uninstall-windows.bat` / `uninstall-mac.command` restores them, and save data is never touched.
 
-## Building it yourself
-
-The repository contains no game files. You build the patch from your own copy of the game:
+### Option 2: **Build it from your own game files**
 
 ```bash
-# clone this repo into the game folder as "english-patch" (next to danchro.exe)
-cd english-patch
-python3 -m venv .venv
-.venv/bin/pip install UnityPy msgpack lz4 numpy
-.venv/bin/python tools/export_images.py          # tutorial textures -> images/ja/
-.venv/bin/python tools/image_tl.py render        # English tutorial images -> images/en/
-.venv/bin/python tools/build_patch.py build      # patched files -> out/ (backs up originals to original/)
-.venv/bin/python tools/build_patch.py install    # or: package -> dist/DanChro-English-Patch.zip
+cd "<game folder>"
+git clone https://github.com/EY4O/danchro-english-patch.git english-patch
 ```
 
-`build` options: `--no-gameplay`, `--no-ai`, `--no-images`, `--no-quality`, `--no-audio`. `uninstall` restores the original files.
+Then follow [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md#run-it-locally): it extracts what it needs from your copy, renders the tutorial images and installs the result.
 
-### How it works
+<details>
+<summary><b>Playing on a Mac (Apple Silicon)</b></summary>
 
-| File | Role |
-|---|---|
-| `tools/masterdata.py` | Reads and rebuilds the game's MasterMemory database (MessagePack, LZ4 per table), where all text lives |
-| `tools/build_patch.py` | Applies everything, rewrites the bundles, zeroes their CRCs in the Addressables catalog, installs/packages |
-| `tools/gameplay.py` | Gacha, crystal and grind tuning; constants at the top |
-| `tools/ai.py` | Adds "only heal when hurt" guards to the auto-battle behaviour trees |
-| `tools/quality.py`, `tools/audio.py` | Detail preset; CRIWARE spatial-audio flag that breaks sound under Wine |
-| `tools/image_tl.py`, `tools/ocr/ocr.swift` | Tutorial image translation: OCR boxes, erase, redraw in the game's style |
-| `translations/*.json`, `batches/manifest.json` | The English text; the manifest maps each entry to the game's dictionary keys |
-| `images/text_en.json`, `images/spec/` | English text and layout for each tutorial image |
-| `tools/check_batch.py`, `tools/normalize_terms.py` | Validation (placeholders, tags, leftover Japanese) and term consistency |
+The game is a Windows program, but it runs well under Wine, including fullscreen at native Retina resolution on an M2.
 
-## Contributing
+1. Install Rosetta 2: `softwareupdate --install-rosetta --agree-to-license`
+2. Download [Gcenx's Wine Staging](https://github.com/Gcenx/macOS_Wine_builds) (11.18 tested).
+3. Download [DXVK-macOS](https://github.com/Gcenx/DXVK-macOS), the `-repack-builtin` package. Copy its `d3d11.dll` and `d3d10core.dll` over the ones in `Wine Staging.app/Contents/Resources/wine/lib/wine/x86_64-windows/` (and `i386-windows/`). Without this step the game stops with "Failed to initialize graphics".
+4. Install the patch (Option 1), then start the game from its folder:
 
-To fix a line, search `translations/` for the English text, edit it, and open a pull request. Keep `{placeholders}` and `<color>` tags exactly as they are. `tools/check_batch.py <batch>` validates a file if you have the game's source text extracted (`tools/extract.py`, then `tools/make_batches.py`).
+```bash
+"/path/to/Wine Staging.app/Contents/Resources/wine/bin/wine" danchro.exe -screen-fullscreen 1 -screen-width 2880 -screen-height 1864
+```
 
-## Disclaimer
+Use your display's pixel size: the game's own **Screen Size** setting stops at 1920×1080.
+</details>
 
-Unofficial fan project, not affiliated with Aiming, Fujino Ōmori, SB Creative or the other DanMachi rights holders. It does not include or help you obtain the game.
+## 🚀 Getting Started
+
+1. Start the game as usual: `danchro.exe` on Windows, or through Wine on a Mac.
+2. Open **Settings → Display Settings**. Set **Battle Resolution** and **Other Resolution** to **Highest** and turn **Anti-Aliasing** on.
+3. Play the tutorial; it unlocks the rest of the menus as you go.
+4. Pull on any element banner. The tokens you collect buy characters in **Exchange**.
+5. Choose how each unit fights on auto in the formation's **AUTO Settings**: **Prioritize Attack**, **Prioritize Healing**, **Prioritize Strong Foes** or **Prioritize Lone Foes**.
+6. Replay past event stories in **Memories**.
+
+## 🗺️ Roadmap
+
+Some Japanese is still left, planned for v1.1:
+
+- A few labels built into screen layouts rather than the text database, such as the quest panel's First Clear Rewards / Monsters / Drop Rewards headers.
+- Japanese drawn into some images: gacha banner art, the "Strong enemy appears!" battle banner, a few loading screens.
+- Stat labels that wrap mid-word on the character screen (Strength, Endurance, Dexterity).
+
+---
+
+## 📖 How It Works
+
+<details>
+<summary><b>🌐 Translation</b></summary>
+
+All of the game's text lives in one local MasterMemory database (MessagePack with per-table LZ4) inside the `master_assets_all` bundle. The patch rewrites its dictionary table, about 58,700 keys, with English and rebuilds the bundle.
+
+The text was translated with AI (Claude) in batches: names and terms first, then menus and descriptions checked against those names, and story scenes whole, with their speakers. Every batch is checked automatically: all entries present, `{placeholders}` and color tags intact, no Japanese left. Names that different batches rendered differently are then unified. Story chapter 1-1 and the character names were checked by hand.
+
+It reads naturally, but it is not a professional human translation. Corrections are welcome (see Contributing).
+</details>
+
+<details>
+<summary><b>🖼️ Tutorial images</b></summary>
+
+Apple's Vision OCR finds every Japanese text block in the tutorial images. The Japanese is erased: whole boxes for headlines, only the letter pixels where text sits on artwork. English is then drawn in the game's style, white with orange emphasis, a dark outline and a shadow. Each image was checked against the original by eye.
+
+A few stylized logos stay Japanese where erasing them would damage the art.
+</details>
+
+<details>
+<summary><b>🎟️ Gacha and rewards (full patch)</b></summary>
+
+The offline edition keeps five element banners at 300 crystals a pull, and the whole story paid about 15,000 crystals. The full patch changes the game's reward tables, not your save:
+
+- **Exchange tokens**: 1 → 5 per pull (50 per ten-pull). Fifty tokens buy any of the 91 characters and assists in the exchange shop.
+- **Rates**: top-rarity characters and assists 2.5% → 7.5% each, taken from the 3★ slots. The ten-pull's guaranteed top-rarity slot is unchanged.
+- **Story first clears**: 30 / 100 / 0 → 150 / 300 / 500 crystals.
+- **Quests**: character EXP, mastery, player EXP and gold ×2; upgrade-material drops ×2.
+</details>
+
+<details>
+<summary><b>🩹 Auto-battle</b></summary>
+
+Auto-battle follows behaviour trees stored in the game data. The default tactics fire every assist and skill the moment it is ready. The game's own **Prioritize Healing** tactic already checks for "HP below 70%" before healing; the patch adds that same check to **Prioritize Attack**, **Prioritize Strong Foes** and **Prioritize Lone Foes**. Heals then wait for damage, and damage and buff skills fire as before.
+</details>
+
+<details>
+<summary><b>🔊 Sound and detail</b></summary>
+
+- **Sound**: CRIWARE, the game's audio engine, renders through Windows spatial sound. Wine only partly implements that, so audio dies about 10 seconds in. The patch switches CRIWARE to plain stereo output (WASAPI). On Windows this only drops Windows Sonic spatial output.
+- **Detail (full patch)**: the game boots on Unity's lowest quality preset, with a level-of-detail bias of 0.3. The patch raises it to 2.0 so models keep their detailed meshes further from the camera.
+</details>
+
+<details>
+<summary><b>🛡️ Safety</b></summary>
+
+- The installer checks every file it will replace before changing anything, and backs up the originals once.
+- Save data (`AppData/LocalLow/aiming/danmachi_danchro`) is never read or written.
+- Modified bundles get their checksum cleared in the asset catalog, so the game loads them.
+- Uninstall restores the exact original files.
+</details>
+
+---
+
+## 🧪 Development
+
+Building, translating and releasing are described in **[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**.
+
+## 🤝 Contributing
+
+Found a wrong line, a misnamed character or text that overflows its box? [Open an issue](https://github.com/EY4O/danchro-english-patch/issues) with a screenshot. For a fix, search `translations/` for the English text, edit it, and open a pull request. Keep `{placeholders}` and `<color>` tags exactly as they are.
+
+## 🙏 Credits
+
+- [Gcenx's macOS Wine builds](https://github.com/Gcenx/macOS_Wine_builds) and [DXVK-macOS](https://github.com/Gcenx/DXVK-macOS): running the game on a Mac
+- [UnityPy](https://github.com/K0lb3/UnityPy): reading and writing the game's Unity bundles
+- [msgpack-python](https://github.com/msgpack/msgpack-python) and [python-lz4](https://github.com/python-lz4/python-lz4): the game's database format
+- [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL): mapping the game's code during research
+- [Claude](https://claude.ai) by Anthropic: translation and tooling
+- *Is It Wrong to Try to Pick Up Girls in a Dungeon?* (Fujino Ōmori, Yen Press English edition): names and terminology
+
+## ☕ Support
+
+If the patch let you finally play DanChro in English, you can support my projects:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/looneth)
+
+## 📄 License
+
+The tools are [MIT](LICENSE)-licensed. *DanMachi Battle Chronicle* and everything in it, including the original text the translation is based on, belong to Aiming and the DanMachi rights holders. This is an unofficial fan project with no affiliation to them, and it does not include or help you obtain the game.
