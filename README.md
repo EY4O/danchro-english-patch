@@ -90,7 +90,7 @@ Use your display's pixel size: the game's own **Screen Size** setting stops at 1
 Some Japanese is still left, planned for v1.1:
 
 - A few labels built into screen layouts rather than the text database, such as the quest panel's First Clear Rewards / Monsters / Drop Rewards headers.
-- Japanese drawn into some images: gacha banner art, the "Strong enemy appears!" battle banner, a few loading screens.
+- Japanese drawn into some images: gacha banner art, the "Pull!" prompt in the gacha animation, the "Strong enemy appears!" battle banner, a few loading screens.
 - Stat labels that wrap mid-word on the character screen (Strength, Endurance, Dexterity).
 
 ---
